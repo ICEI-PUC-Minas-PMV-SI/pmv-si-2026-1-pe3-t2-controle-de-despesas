@@ -6,7 +6,7 @@
 
 `SEMESTRE: 3º`
 
-Será desenvolvido um anbiente voltato para auxiliar pessoas no controle de seus gastos financeiros. A ferramenta permirirá visualizar de forma organizada como o dinheiro foi ultilizado ao longo do mês, apresentando informaçãoes sobre onde ocorreram os proncipais gastos.
+Será desenvolvido um ambiente voltato para auxiliar pessoas no controle de seus gastos financeiros. A ferramenta permirirá visualizar de forma organizada de como o dinheiro foi ultilizado ao longo do mês, apresentando informaçãoes sobre onde ocorreram os proncipais gastos.
 
 ## Integrantes
 
