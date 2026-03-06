@@ -1,6 +1,6 @@
 # 1. INTRODUÇÃO
 
-Contextualizar a área de pesquisa do trabalho, apresentando conceitos e dados relacionados antes de apresentar a problemática a ser investigada.
+O avanço das tecnologias digitais tem transformado a forma como as pessoas realizam operações financeiras e administram seus recursos no dia a dia, mesmo com a facilidade proporcionada pelos serviços financeiros digitais, muitas pessoas enfrentão poblemas, com o controle e uma boa gestão e posssivel preservar boa parte da renda (Primo Rico;YOU TUBE,2024). O Governo do Estado MS publicou o Decreto nº 16.736, de 13 de fevereiro de 2026, que estabelece medidas administrativas de racionalização, reprogramação e controle de gastos no âmbito da Administração Direta, Autárquica e Fundacional do Poder Executivo Estadual, incluindo as despesas dos fundos especiais, com validade até 31 de dezembro de 2026.(News MS;SITE,2026). Ferramentas que auxiliem no acompanhamento das despesas podem contribuir para um maior controle financeiro. Com uma visualização mais clara dos gastos, o usuário consegue compreender melhor para onde seu dinheiro está sendo direcionado e administrar sua renda de forma mais consciente.
 
 ## 1.1. Problema
 
