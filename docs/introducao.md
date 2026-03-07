@@ -4,8 +4,10 @@ O avanço das tecnologias digitais tem transformado a forma como as pessoas real
 
 ## 1.1. Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve resolver. No entanto, não é a hora de comentar sobre a aplicação. 
-Descreva também o contexto em que essa aplicação será usada, se houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de fato existir, pois ainda não é a hora de apresentar requisitos detalhados ou projetos.
+O controle das finanças pessoais é uma dificuldade enfrentada por muitas pessoas. Apesar da facilidade de acesso a serviços bancários digitais e ferramentas tecnológicas voltadas a gestão financeira, grande parte dos usuários ainda encontra dificuldades para acompanhar os seus gastos de forma organizada. A ausência desse acompanhamento pode gerar problemas como, endividamento, desorganização financeira e dificuldade no planejamento das despesas.
+Parte desse problema ocorre pela falta de conhecimento e práticas adequadas de gerenciamento financeiro no dia a dia. Muitas pessoas utilizam anotações manuais, planilhas ou simplesmente deixam de anotar seus ganhos e gastos mensais.
+Segundo a Pontifícia Universidade Católica de Minas Gerais, a educação financeira está relacionada ao desenvolvimento de conhecimentos e habilidades que auxiliam os indivíduos na organização e no planejamento de suas finanças pessoais, contribuindo para uma melhor tomada de decisões no uso do dinheiro. (PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS, 2023).
+Dessa forma, observa-se que muitas pessoas ainda enfrentam dificuldades para acompanhar e organizar suas despesas pessoais, evidenciando a importância da adoção de um método de controle financeiro associado a um planejamento eficiente.
 
 ## 1.2. Objetivos do trabalho
 
