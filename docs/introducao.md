@@ -19,4 +19,10 @@ Descreva a importância ou a motivação para trabalhar com esta aplicação que
 
 ## 1.4. Público alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações hierárquicas, etc.
+O público-alvo da aplicação é formado por pessoas que necessitam de maior organização e controle sobre suas finanças pessoais no cotidiano. Trata-se, principalmente, de usuários que possuem renda própria e precisam acompanhar receitas, despesas e saldo disponível, mas que nem sempre realizam esse processo de forma sistemática e eficiente.
+
+Entre os perfis atendidos, destacam-se estudantes, trabalhadores assalariados, autônomos e responsáveis pela administração financeira familiar. Esses usuários apresentam diferentes níveis de conhecimento em educação financeira e em uso de ferramentas tecnológicas. Enquanto alguns já possuem contato com aplicativos bancários, planilhas e serviços digitais, outros utilizam apenas anotações informais ou não mantêm qualquer método contínuo de controle financeiro.
+
+De modo geral, são usuários com familiaridade básica a intermediária com a tecnologia, especialmente no uso de dispositivos móveis e sistemas digitais, mas que podem encontrar dificuldades em ferramentas mais complexas. Por esse motivo, a aplicação deve atender a um público que valoriza praticidade, clareza das informações e facilidade de uso, permitindo o acompanhamento das movimentações financeiras de maneira simples e acessível.
+
+Além disso, o sistema é voltado para pessoas que enfrentam dificuldades no planejamento de gastos, na identificação de despesas recorrentes e na compreensão da própria situação financeira. Assim, a aplicação busca atender indivíduos que desejam desenvolver hábitos de controle financeiro mais consistentes, contribuindo para uma gestão mais consciente da renda e para uma melhor tomada de decisão no uso dos recursos financeiros.
