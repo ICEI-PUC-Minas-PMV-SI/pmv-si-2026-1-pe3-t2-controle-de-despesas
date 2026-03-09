@@ -11,11 +11,19 @@ Dessa forma, observa-se que muitas pessoas ainda enfrentam dificuldades para aco
 
 ## 1.2. Objetivos do trabalho
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. O objetivo geral deve resumir e apresentar a ideia central de um trabalho, descrevendo também a sua finalidade. Os objetivos específicos darão uma maior delimitação ao tema, além de detalhar os processos necessários para a realização do trabalho.
+O nosso principal objetivo no desenvolvimento deste projeto são as pessoas que desejam melhorar o seu relacionamento com o dinheiro, e estão almejando um conforto financeiro no futuro.
+
+<img width="446" height="314" alt="image" src="https://github.com/user-attachments/assets/ac35f0b6-b06f-49e5-a39e-a61e5eafe8c7" /> 
+
+(IJACSA) International Journal of Advanced Computer Science and Applications, 
+Vol. 12, Nº 1, 2021.
+
+Com facilidade de uso e a interface intuitiva para até quem não possui conhecimentos avançados em finanças consiga acompanhar seus gastos, Girdhar et al. (2024) enfatiza como a categorização e interfaces agradáveis desempenham um papel fundamental para garantir que as pessoas permaneçam motivadas com seu acompanhamento financeiro. 
+Desenvolver um sistema que permita o usuário registrar, organizar e analisar receitas e gastos, auxiliando o usuário no gerenciamento de suas finanças e na tomada de decisões financeiras.
 
 ## 1.3. Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+Em uma população onde o consumismo sem freio está em primeiro plano, é preciso  equilíbrio  no  momento  de realizar gastos para não gerar complicações nas finanças pessoais, como dívidas com altos valores que dificilmente são quitadas e, consequentemente, tendo o nome do incluído no sistema de proteção ao crédito. Foi pensando nisso que o nosso grupo concluiu que um projeto focado em controle financeiro seria o ideal para  desenvolver uma ferramenta capaz de auxiliar os usuários na organização de suas finanças pessoais e na tomada de decisões mais concientes sobre seus gastos.
 
 ## 1.4. Público alvo
 
