@@ -14,6 +14,7 @@ Será desenvolvido um ambiente voltato para auxiliar pessoas no controle de seus
 * Alisson Fernando 2
 * Diego Soares 3
 * Jeferson Silva Carvalho 4
+* Rafael Alves Faria 5
 
 ## Orientador
 
