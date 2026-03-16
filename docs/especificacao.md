@@ -1,6 +1,7 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
 ## 3.0.1 A documentação dos requisitos deve ser detalhada para traduzir as necessidades dos usuários:
+
 Como estudantes, autônomos e gestores familiares, em funcionalidades técnicas que combatam a desorganização financeira e o endividamento. 
 Para isso, é essencial identificar os requisitos funcionais, que descreverão as ações que o sistema deve executar, como o registro de receitas e despesas mensais, a categorização automática de gastos e a geração de visões claras sobre o saldo disponível. Esta seção servirá como o alicerce para que o desenvolvimento atinja o objetivo de oferecer uma ferramenta simples e eficiente de acompanhamento orçamentário, conforme as lacunas identificadas por autores como Krieger (2025).
 
@@ -16,7 +17,8 @@ Estes requisitos descrevem as funcionalidades que permitirão ao usuário gerenc
 | RF04 | Visualização de Orçamento | O sistema deve apresentar um painel (dashboard) com o resumo financeiro mensal do usuário de forma clara. |
 | RF05 | Gestão de Perfil | O sistema deve permitir que o usuário crie uma conta e gerencie seus dados pessoais com segurança. |
 
-## 3.0.2 Complementarmente, devem ser estabelecidos os requisitos não funcionais, que definem os atributos de qualidade e restrições do sistema, garantindo a eficácia da solução no dia a dia do público-alvo. Seguindo as diretrizes de Girdhar et al. (2024), a documentação deve priorizar requisitos de usabilidade, assegurando uma interface intuitiva que mantenha o usuário motivado, além de requisitos de segurança para a proteção dos dados sensíveis de movimentação bancária e pessoal. Ao detalhar esses requisitos conforme as seções propostas, o projeto estabelecerá um referencial técnico sólido que guiará desde a arquitetura da informação até os testes de aceitação finais, garantindo que o sistema não seja apenas mais uma ferramenta automatizada, mas uma solução real para a tomada de decisões financeiras conscientes.
+## 3.0.2 Complementarmente, devem ser estabelecidos os requisitos não funcionais, que definem os atributos de qualidade e restrições do sistema, garantindo a eficácia da solução no dia a dia do público-alvo:
+Seguindo as diretrizes de Girdhar et al. (2024), a documentação deve priorizar requisitos de usabilidade, assegurando uma interface intuitiva que mantenha o usuário motivado, além de requisitos de segurança para a proteção dos dados sensíveis de movimentação bancária e pessoal. Ao detalhar esses requisitos conforme as seções propostas, o projeto estabelecerá um referencial técnico sólido que guiará desde a arquitetura da informação até os testes de aceitação finais, garantindo que o sistema não seja apenas mais uma ferramenta automatizada, mas uma solução real para a tomada de decisões financeiras conscientes.
 
 Requisitos Não Funcionais (RNF):
 
