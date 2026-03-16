@@ -1,9 +1,37 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
-Nesta parte do trabalho você deve detalhar a documentação dos requisitos do sistema proposto de acordo com as seções a seguir. Ressalta-se que aqui é utilizado como exemplo um sistema de gestão de cursos de aperfeiçoamento.
+##3.0.1 A documentação dos requisitos deve ser detalhada para traduzir as necessidades dos usuários:
+Como estudantes, autônomos e gestores familiares, em funcionalidades técnicas que combatam a desorganização financeira e o endividamento. 
+Para isso, é essencial identificar os requisitos funcionais, que descreverão as ações que o sistema deve executar, como o registro de receitas e despesas mensais, a categorização automática de gastos e a geração de visões claras sobre o saldo disponível. Esta seção servirá como o alicerce para que o desenvolvimento atinja o objetivo de oferecer uma ferramenta simples e eficiente de acompanhamento orçamentário, conforme as lacunas identificadas por autores como Krieger (2025).
+
+Requisitos Funcionais (RF)
+Estes requisitos descrevem as funcionalidades que permitirão ao usuário gerenciar suas finanças:
+
+ID | Requisito | Descrição |
+RF01 | Registro de Transações | "O sistema deve permitir que o usuário insira receitas (ganhos) e despesas (gastos), informando valor, data e descrição." |
+RF02 | Categorização de Gastos | "O sistema deve permitir a classificação das despesas em categorias (ex: alimentação, transporte, lazer) para análise detalhada." |
+RF03| Cálculo de Saldo | O sistema deve calcular automaticamente o saldo disponível subtraindo o total de despesas do total de receitas. |
+RF04 | Visualização de Orçamento | O sistema deve apresentar um painel (dashboard) com o resumo financeiro mensal do usuário de forma clara. |
+RF05 | Gestão de Perfil | O sistema deve permitir que o usuário crie uma conta e gerencie seus dados pessoais com segurança. |
+
+##3.0.2 Complementarmente, devem ser estabelecidos os requisitos não funcionais, que definem os atributos de qualidade e restrições do sistema, garantindo a eficácia da solução no dia a dia do público-alvo. Seguindo as diretrizes de Girdhar et al. (2024), a documentação deve priorizar requisitos de usabilidade, assegurando uma interface intuitiva que mantenha o usuário motivado, além de requisitos de segurança para a proteção dos dados sensíveis de movimentação bancária e pessoal. Ao detalhar esses requisitos conforme as seções propostas, o projeto estabelecerá um referencial técnico sólido que guiará desde a arquitetura da informação até os testes de aceitação finais, garantindo que o sistema não seja apenas mais uma ferramenta automatizada, mas uma solução real para a tomada de decisões financeiras conscientes.
+
+Requisitos Não Funcionais (RNF)
+Estes requisitos garantem que a experiência do usuário seja satisfatória e segura, conforme citado em sua justificativa:
+
+ID | Requisito | Descrição |
+RNF01 | Usabilidade | "A interface deve ser intuitiva e fácil de usar, permitindo que usuários com pouco conhecimento tecnológico operem o sistema sem dificuldades." |
+RNF02 | Segurança | Os dados financeiros e as senhas dos usuários devem ser criptografados para garantir a privacidade das informações. |
+RNF03 | Disponibilidade | O sistema deve ser acessível via web ou dispositivos móveis em 99% do tempo (disponibilidade 24/7). |
+RNF04 | Desempenho | O sistema deve processar e exibir os cálculos de saldo e gráficos em um tempo de resposta inferior a 2 segundos. |
+
 
 ## 3.1 Objetivos deste documento
-Descrever e especificar as necessidades da Coordenação do Curso de Sistemas de Informação da PUC Minas que devem ser atendidas pelo projeto SCCA – Sistema de Cadastro de Cursos de Aperfeiçoamento.
+
+### 3.1.1 Necessidades do Projeto SCCA
+O projeto SCCA deve atender à necessidade da Coordenação do Curso de Sistemas de Informação da PUC Minas de centralizar e automatizar o gerenciamento de cursos extracurriculares. Atualmente, a falta de uma ferramenta integrada dificulta o controle de novas ofertas, a validação de carga horária e o acompanhamento do histórico de cursos realizados. O sistema deve permitir que a coordenação cadastre novos cursos de aperfeiçoamento, gerencie as ementas e monitore o fluxo de inscrições, garantindo que as atividades propostas estejam alinhadas às diretrizes de educação financeira e técnica mencionadas no referencial teórico do curso.
+
+Além da gestão administrativa, o sistema precisa oferecer uma interface intuitiva para que os alunos possam visualizar as oportunidades de aperfeiçoamento de forma clara e ágil. A especificação deve prever a geração de relatórios que auxiliem a coordenação na tomada de decisões estratégicas sobre quais áreas demandam mais cursos (como gestão financeira ou tecnologias emergentes). Assim, o SCCA funcionará como um facilitador da organização acadêmica, eliminando processos manuais e fornecendo um repositório confiável de dados para a melhoria contínua da formação oferecida pela PUC Minas.
 
 ## 3.2 Escopo do produto
 
