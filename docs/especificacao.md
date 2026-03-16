@@ -8,6 +8,7 @@ Requisitos Funcionais (RF)
 Estes requisitos descrevem as funcionalidades que permitirão ao usuário gerenciar suas finanças:
 
 | ID | Requisito | Descrição |
+|---|---|---|
 | RF01 | Registro de Transações | "O sistema deve permitir que o usuário insira receitas (ganhos) e despesas (gastos), informando valor, data e descrição." |
 | RF02 | Categorização de Gastos | "O sistema deve permitir a classificação das despesas em categorias (ex: alimentação, transporte, lazer) para análise detalhada." |
 | RF03| Cálculo de Saldo | O sistema deve calcular automaticamente o saldo disponível subtraindo o total de despesas do total de receitas. |
@@ -20,6 +21,7 @@ Requisitos Não Funcionais (RNF)
 Estes requisitos garantem que a experiência do usuário seja satisfatória e segura, conforme citado em sua justificativa:
 
 ID | Requisito | Descrição |
+|---|---|---|
 RNF01 | Usabilidade | "A interface deve ser intuitiva e fácil de usar, permitindo que usuários com pouco conhecimento tecnológico operem o sistema sem dificuldades." |
 RNF02 | Segurança | Os dados financeiros e as senhas dos usuários devem ser criptografados para garantir a privacidade das informações. |
 RNF03 | Disponibilidade | O sistema deve ser acessível via web ou dispositivos móveis em 99% do tempo (disponibilidade 24/7). |
