@@ -4,7 +4,8 @@
 Como estudantes, autônomos e gestores familiares, em funcionalidades técnicas que combatam a desorganização financeira e o endividamento. 
 Para isso, é essencial identificar os requisitos funcionais, que descreverão as ações que o sistema deve executar, como o registro de receitas e despesas mensais, a categorização automática de gastos e a geração de visões claras sobre o saldo disponível. Esta seção servirá como o alicerce para que o desenvolvimento atinja o objetivo de oferecer uma ferramenta simples e eficiente de acompanhamento orçamentário, conforme as lacunas identificadas por autores como Krieger (2025).
 
-Requisitos Funcionais (RF)
+Requisitos Funcionais (RF):
+
 Estes requisitos descrevem as funcionalidades que permitirão ao usuário gerenciar suas finanças:
 
 | ID | Requisito | Descrição |
@@ -17,7 +18,8 @@ Estes requisitos descrevem as funcionalidades que permitirão ao usuário gerenc
 
 ##3.0.2 Complementarmente, devem ser estabelecidos os requisitos não funcionais, que definem os atributos de qualidade e restrições do sistema, garantindo a eficácia da solução no dia a dia do público-alvo. Seguindo as diretrizes de Girdhar et al. (2024), a documentação deve priorizar requisitos de usabilidade, assegurando uma interface intuitiva que mantenha o usuário motivado, além de requisitos de segurança para a proteção dos dados sensíveis de movimentação bancária e pessoal. Ao detalhar esses requisitos conforme as seções propostas, o projeto estabelecerá um referencial técnico sólido que guiará desde a arquitetura da informação até os testes de aceitação finais, garantindo que o sistema não seja apenas mais uma ferramenta automatizada, mas uma solução real para a tomada de decisões financeiras conscientes.
 
-Requisitos Não Funcionais (RNF)
+Requisitos Não Funcionais (RNF):
+
 Estes requisitos garantem que a experiência do usuário seja satisfatória e segura, conforme citado em sua justificativa:
 
 ID | Requisito | Descrição |
@@ -36,7 +38,30 @@ O projeto SCCA deve atender à necessidade da Coordenação do Curso de Sistemas
 Além da gestão administrativa, o sistema precisa oferecer uma interface intuitiva para que os alunos possam visualizar as oportunidades de aperfeiçoamento de forma clara e ágil. A especificação deve prever a geração de relatórios que auxiliem a coordenação na tomada de decisões estratégicas sobre quais áreas demandam mais cursos (como gestão financeira ou tecnologias emergentes). Assim, o SCCA funcionará como um facilitador da organização acadêmica, eliminando processos manuais e fornecendo um repositório confiável de dados para a melhoria contínua da formação oferecida pela PUC Minas.
 
 ## 3.2 Escopo do produto
+ O produto a ser desenvolvido consiste em um sistema informatizado de gestão financeira pessoal, projetado para auxiliar usuários no registro e monitoramento de sua saúde financeira. O foco central do produto é a simplificação do processo de entrada de dados e a geração de visões analíticas que facilitem a tomada de decisão consciente sobre o uso do capital.
+ 
+###3.2.1Funcionalidades e Características Principais
+* Módulo de Lançamentos: Interface para registro rápido de receitas (entradas) e despesas (saídas), permitindo a inserção de valores, datas e descritivos.
 
+* Categorização Inteligente: Sistema de classificação de gastos em categorias personalizáveis (ex: alimentação, educação, lazer), visando identificar onde o orçamento está sendo mais comprometido.
+
+* Painel de Indicadores (Dashboard): Visualização gráfica do saldo atual, comparação entre receitas e despesas do mês vigente e projeção de gastos recorrentes.
+
+* Histórico e Filtros: Repositório de dados que permite ao usuário consultar movimentações passadas por períodos específicos (mensal/anual).
+
+* Interface Responsiva: Design focado na usabilidade (conforme Girdhar et al., 2024), garantindo que estudantes e trabalhadores acessem o sistema com facilidade tanto em computadores quanto em dispositivos móveis.
+
+###3.2.2 Limites e Exclusões (Fora do Escopo)
+* Para garantir a viabilidade do projeto e o foco no controle de gastos simples e eficiente, os seguintes itens não fazem parte deste escopo:
+
+* Integração automática via API com contas bancárias reais (os dados devem ser inseridos manualmente ou via importação de arquivo padrão).
+
+* Módulo de investimentos em bolsa de valores ou criptoativos.
+
+* Consultoria financeira automatizada baseada em inteligência artificial para aplicações de risco.
+
+* Pagamento de contas diretamente pelo sistema (o sistema é de controle, não de transação bancária).
+* 
 ### 3.2.1 Nome do produto e seus componentes principais
 O produto será denominado SCCA – Sistema de Cadastro de Cursos de Aperfeiçoamento. Ele terá somente um componente (módulo) com os devidos elementos necessários à gestão de cursos.
 
