@@ -7,12 +7,12 @@ Para isso, é essencial identificar os requisitos funcionais, que descreverão a
 Requisitos Funcionais (RF)
 Estes requisitos descrevem as funcionalidades que permitirão ao usuário gerenciar suas finanças:
 
-ID | Requisito | Descrição 
-RF01 | Registro de Transações | "O sistema deve permitir que o usuário insira receitas (ganhos) e despesas (gastos), informando valor, data e descrição." 
-RF02 | Categorização de Gastos | "O sistema deve permitir a classificação das despesas em categorias (ex: alimentação, transporte, lazer) para análise detalhada." 
-RF03| Cálculo de Saldo | O sistema deve calcular automaticamente o saldo disponível subtraindo o total de despesas do total de receitas. 
-RF04 | Visualização de Orçamento | O sistema deve apresentar um painel (dashboard) com o resumo financeiro mensal do usuário de forma clara. 
-RF05 | Gestão de Perfil | O sistema deve permitir que o usuário crie uma conta e gerencie seus dados pessoais com segurança. 
+| ID | Requisito | Descrição |
+| RF01 | Registro de Transações | "O sistema deve permitir que o usuário insira receitas (ganhos) e despesas (gastos), informando valor, data e descrição." |
+| RF02 | Categorização de Gastos | "O sistema deve permitir a classificação das despesas em categorias (ex: alimentação, transporte, lazer) para análise detalhada." |
+| RF03| Cálculo de Saldo | O sistema deve calcular automaticamente o saldo disponível subtraindo o total de despesas do total de receitas. |
+| RF04 | Visualização de Orçamento | O sistema deve apresentar um painel (dashboard) com o resumo financeiro mensal do usuário de forma clara. |
+| RF05 | Gestão de Perfil | O sistema deve permitir que o usuário crie uma conta e gerencie seus dados pessoais com segurança. |
 
 ##3.0.2 Complementarmente, devem ser estabelecidos os requisitos não funcionais, que definem os atributos de qualidade e restrições do sistema, garantindo a eficácia da solução no dia a dia do público-alvo. Seguindo as diretrizes de Girdhar et al. (2024), a documentação deve priorizar requisitos de usabilidade, assegurando uma interface intuitiva que mantenha o usuário motivado, além de requisitos de segurança para a proteção dos dados sensíveis de movimentação bancária e pessoal. Ao detalhar esses requisitos conforme as seções propostas, o projeto estabelecerá um referencial técnico sólido que guiará desde a arquitetura da informação até os testes de aceitação finais, garantindo que o sistema não seja apenas mais uma ferramenta automatizada, mas uma solução real para a tomada de decisões financeiras conscientes.
 
