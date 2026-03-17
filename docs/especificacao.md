@@ -110,10 +110,20 @@ O CDD será de uso individual, não pode ser usado por múltiplos usuários simu
 
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| RF1 | Gerenciar Curso de Aperfeiçoamento |	Processamento de Inclusão, Alteração, Exclusão e Consulta de Cursos de Aperfeiçoamento |
-| RF2 |	Gerenciar Professor	| Processamento de Inclusão, Alteração, Exclusão e Consulta de professores |
-| RF3	| Gerenciar Matrícula |	Processamento de Inclusão, Alteração, Exclusão e Consulta de Matrículas de alunos em Cursos de Aperfeiçoamento |
-| ... |	...	| ... |
+| RF1 | Criar cadastro |	O sistema deve permitir o usuário criar um cadastro com e-mail e senha |
+| RF2 |	Senha	| A senha deve conter no mínimo 8 caracteres |
+| RF3	| Validação de e-mail |	O sistema deve verificar se o endereço e-mail já é existente |
+| RF4	| E-mail inexistente |	O sistema deve solicitar um cadastro |
+| RF5 |	Recuperar senha	| O sistema deve permitir o usuário recuperar a sua senha, caso perdida, através do seu e-mail |
+| RF6	|  |	 |
+| RF7 |	Tempo limite do código	| O código encaminhado ao e-mail deve expirar em um determinado tempo |
+| RF8 |	Logout manual	| A conta do usuário será desvinculada assim que ele sair do sistema |
+| RF9 |	Sessão expira sozinha	| A sessão do usuário irá se expirar sozinha |
+| RF10 |	Dispositivos simuntâneos	| O sistema deve permanecer logado simutâneamente em apenas 1 aparelho por usuário |
+| RF11 |	Usuário digita e-mail inválido	| O sistema deve rejeitar e-mails inválidos |
+| RF1 |	...	| ... |
+| RF1 |	...	| ... |
+| RF1 |	...	| ... |
 
 ### 3.3.2 Requisitos Não Funcionais
 
