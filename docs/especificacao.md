@@ -42,7 +42,8 @@ Além da gestão administrativa, o sistema precisa oferecer uma interface intuit
 ## 3.2 Escopo do produto
  O produto a ser desenvolvido consiste em um sistema informatizado de gestão financeira pessoal, projetado para auxiliar usuários no registro e monitoramento de sua saúde financeira. O foco central do produto é a simplificação do processo de entrada de dados e a geração de visões analíticas que facilitem a tomada de decisão consciente sobre o uso do capital.
  
-### 3.2.1Funcionalidades e Características Principais
+### 3.2.1 Funcionalidades e Características Principais
+
 * Módulo de Lançamentos: Interface para registro rápido de receitas (entradas) e despesas (saídas), permitindo a inserção de valores, datas e descritivos.
 
 * Categorização Inteligente: Sistema de classificação de gastos em categorias personalizáveis (ex: alimentação, educação, lazer), visando identificar onde o orçamento está sendo mais comprometido.
@@ -53,7 +54,8 @@ Além da gestão administrativa, o sistema precisa oferecer uma interface intuit
 
 * Interface Responsiva: Design focado na usabilidade (conforme Girdhar et al., 2024), garantindo que estudantes e trabalhadores acessem o sistema com facilidade tanto em computadores quanto em dispositivos móveis.
 
-### 3.2.2 Limites e Exclusões (Fora do Escopo)
+### 3.2.2 Limites e Exclusões
+
 * Para garantir a viabilidade do projeto e o foco no controle de gastos simples e eficiente, os seguintes itens não fazem parte deste escopo:
 
 * Integração automática via API com contas bancárias reais (os dados devem ser inseridos manualmente ou via importação de arquivo padrão).
@@ -68,7 +70,12 @@ Além da gestão administrativa, o sistema precisa oferecer uma interface intuit
 O produto será denominado SCCA – Sistema de Cadastro de Cursos de Aperfeiçoamento. Ele terá somente um componente (módulo) com os devidos elementos necessários à gestão de cursos.
 
 ### 3.2.2 Missão do produto
-Gerenciar informações sobre a oferta de cursos de aperfeiçoamento, gerenciar a composição das turmas, alunos, professores e matrículas. 
+Gestão de Informações e Composição do Sistema Financeiro:
+
+* O sistema deve gerenciar centralizadamente as informações sobre a oferta de categorias de gastos e fontes de receita, funcionando como o núcleo para a organização do capital do usuário. A composição do sistema deve permitir o registro detalhado de movimentações financeiras, onde cada lançamento é associado a metadados específicos, como data, valor, descrição e tipo de despesa (fixa ou variável). 
+Essa estrutura de gerenciamento é fundamental para combater o "consumismo sem freio" citado na justificativa do projeto, pois permite que o sistema processe dados brutos e os transforme em informações úteis para a autoavaliação financeira, garantindo que usuários, desde estudantes universitários a trabalhadores autônomos, tenham um repositório confiável para monitorar sua margem de economia.
+
+* Além da gestão de registros, o sistema deve gerenciar a composição de orçamentos e planejamentos mensais, permitindo que o usuário estabeleça metas de economia e tetos de gastos por categoria. Ao integrar o gerenciamento de informações de saldo com ferramentas de análise visual, o software automatiza a identificação de despesas recorrentes e gargalos no orçamento que antes passariam despercebidos em anotações manuais. Esse controle sistemático atende à necessidade de educação financeira destacada pela PUC Minas, oferecendo ao público-alvo uma interface intuitiva que facilita a tomada de decisões conscientes e promove o conforto financeiro a longo prazo através de uma gestão informatizada eficiente.
 
 ### 3.2.3 Limites do produto
 O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcelas do curso, pagamento a professore e agendamentos. O SCCA não contempla o atendimento a vários cursos de Sistemas de Informação de outras unidades da PUC Minas.
