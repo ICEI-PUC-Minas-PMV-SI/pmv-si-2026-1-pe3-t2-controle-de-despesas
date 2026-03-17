@@ -125,10 +125,10 @@ O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcela
 ### 3.3.3 Usuários 
 
 | Ator | Descrição |
-|--------------------|------------------------------------|
-| Coordenador |	Usuário gerente do sistema responsável pelo cadastro e manutenção de cursos de aperfeiçoamento. Possui acesso geral ao sistema. |
-| Secretaria |	Usuário responsável por registros de alunos, professores, turmas e gerência de matrículas. |
-| ... |	... |	... |
+|---|---|
+| Visitante | Pessoa interessada em utilizar a solução, mas que ainda não possui cadastro ativo. Pode realizar o processo de criação de conta e autenticação inicial para passar a utilizar o sistema. |
+| Usuário Cadastrado | Ator primário do sistema. Corresponde à pessoa que utiliza a aplicação para registrar receitas e despesas, categorizar gastos, acompanhar saldo, consultar histórico financeiro, visualizar indicadores em painel e gerenciar os próprios dados de perfil. Enquadram-se nesse ator perfis como estudantes, trabalhadores assalariados, autônomos e responsáveis pela administração financeira familiar. |
+| Administrador do Sistema | Usuário responsável pela administração técnica e operacional da plataforma. Possui acesso privilegiado para gerenciar contas de usuários, manter parâmetros gerais do sistema, acompanhar o funcionamento da aplicação e apoiar a integridade, a disponibilidade e a segurança das informações financeiras armazenadas. Não utiliza o sistema para registrar despesas pessoais, mas para garantir seu correto funcionamento e suporte aos demais usuários. |
 
 ## 3.4 Modelagem do Sistema
 
