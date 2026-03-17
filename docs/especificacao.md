@@ -134,10 +134,18 @@ O CDD será de uso individual, não pode ser usado por múltiplos usuários simu
 
 | Código | Requisito Não Funcional (Restrição) |
 |--------------------|------------------------------------|
-| RNF1 | O ambiente operacional a ser utilizado é o Windows XP. |
-| RNF2 | O sistema deverá executar em um computador configurado com uma impressora de tecnologia laser ou de jato de tinta, a ser usada para impressão dos relatórios. |
-| RNF3 |	Segurança	O produto deve restringir o acesso por meio de senhas individuais para o usuário. |
-| ... |	... |	... |
+| RNF1 | Após efetuar o login, o carregamento dos dados como: saldo, gráficos e resumos, devem ser apresentados em menos de 2 segundos para o usuário |
+| RNF2 | As senhas e dados financeiros dos usuários devem ser armazenadas de forma criptografadas |
+| RNF3 |	O sistema deve solicitar o cadastro de uma nova senha, a cada 6 meses de uso na plataforma, e fazer a verificação da senha para evitar repetição. |
+| RNF4 |	A disponibilidade do sistema deve ser de no mínimo 99,0%, no dia, semana, mês e ano.
+|	RNF5 | O software deve ser responsivo e intuitivo, adaptável a computadores, tablets e celulares e de fácil utilização.
+|	RNF6 | O software, deve possuir botão para alterar o modo de exibição de tela, claro ou escuro.
+|	RNF7 | O sistema deve armazenar os dados históricos de clientes, por no mínimo 5 anos.
+|	RNF8 | O software deve possuir na tela inicial, um campo com perguntas frequentes, um suporte com as prinicipais informações para o usuário.
+|	RNF9 | O código do sistema, deve estar comentado, facilitando a manutenção e atualização.
+|	RNF10 | O sistema deve ser compatível com os principais navegadores, Mozilla Firefox e Google Chrome.
+|	RNF10 | O sistema deve possuir calendário, onde o usuário poderá adicionar lembretes de contas futuras.
+
 
 ### 3.3.3 Usuários 
 
