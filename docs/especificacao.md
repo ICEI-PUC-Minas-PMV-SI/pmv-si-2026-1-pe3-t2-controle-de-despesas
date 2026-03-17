@@ -1,6 +1,6 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
-## 3.0.1 Para refletir as demandas dos usuários, a documentação dos requisitos precisa ser minuciosa:
+## 3.0.1 A documentação dos requisitos deve ser detalhada para atender às necessidades dos usuários:
 
 Como estudantes, autônomos e responsáveis familiares, em ferramentas técnicas que ajudem a combater a desorganização financeira e a dívida. 
 Para isso, é fundamental determinar os requisitos funcionais, que especificarão as tarefas que o sistema deve realizar, como registrar receitas e despesas mensais, classificar automaticamente os gastos e fornecer visões claras do saldo disponível. Esta seção funcionará como a base para que o desenvolvimento alcance a meta de proporcionar uma ferramenta prática e eficaz para o acompanhamento orçamentário, de acordo com as lacunas apontadas por autores como Krieger (2025).
