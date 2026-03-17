@@ -110,26 +110,26 @@ O CDD será de uso individual, não pode ser usado por múltiplos usuários simu
 
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| RF1 | Criar cadastro |	O sistema deve permitir que um novo usuário crie uma conta informando e-mail e senha. |
-| RF2 |	Requisitos mínimos da senha	| A senha deve conter no mínimo 8 caracteres incluindo 1 número e 1 letra. |
-| RF3	| Validação de e-mail único |	Durante o cadastro, o sistema deve verificar se o e-mail já está cadastrado e impedir duplicatas. |
-| RF4	| E-mail inexistente |	O sistema deve solicitar um cadastro |
-| RF5 |	Login no sistema	| O sistema deve permitir que o usuário faça login utilizando e-mail e senha. |
-| RF6	| Recuperação de senha |	O sistema deve permitir que o usuário solicite recuperação de senha informando o seu e-mail. |
-| RF7 |	Expiração de código de recuperação	| O código encaminhado ao e-mail deve ficar válido de 15-30 minutos. |
-| RF8 |	Validação do código de recuperação	| O sistema deve validar o codigo e permitir a redefinição de senha apenas se o código for válido e não expirado. |
-| RF9 |	Logout manual	| O sistema deve permitir o usuário encerrar a sua sessão manualmente. |
+| RF01 | Criar cadastro |	O sistema deve permitir que um novo usuário crie uma conta informando e-mail e senha. |
+| RF02 |	Requisitos mínimos da senha	| A senha deve conter no mínimo 8 caracteres incluindo 1 número e 1 letra. |
+| RF03	| Validação de e-mail único |	Durante o cadastro, o sistema deve verificar se o e-mail já está cadastrado e impedir duplicatas. |
+| RF04	| E-mail inexistente |	O sistema deve solicitar um cadastro |
+| RF05 |	Login no sistema	| O sistema deve permitir que o usuário faça login utilizando e-mail e senha. |
+| RF06	| Recuperação de senha |	O sistema deve permitir que o usuário solicite recuperação de senha informando o seu e-mail. |
+| RF07 |	Expiração de código de recuperação	| O código encaminhado ao e-mail deve ficar válido de 15-30 minutos. |
+| RF08 |	Validação do código de recuperação	| O sistema deve validar o codigo e permitir a redefinição de senha apenas se o código for válido e não expirado. |
+| RF09 |	Logout manual	| O sistema deve permitir o usuário encerrar a sua sessão manualmente. |
 | RF10 |	Expiração automática de sessão	| O sistema deve encerrar a sessão do usuário após um período de inatividade. |
 | RF11 |	Controle de sessão única	| O sistema deve permitir apenas uma sessão ativa por usuário (logout em outros dispositivos automático ao logar). |
-| RF1 |	Cadastro de categoria de transação	| O sistema deve permitir que o usuário cadastre, edite e exclua categorias de despesas e receitas. |
-| RF1 |	Registro de receita	| O sistema deve permitir que o usuário cadastre uma receita, informando valor, data, categoria e descrição. |
-| RF1 |	Resgitro de despesa	| O sistema deve permitir que o usuário cadastre uma despesa, informando, valor, data, categoria e descrição. |
-| RF1 | Edição de transação	| O sistema deve permitir que o usuário edite uma transação já registrada, seja ela receita ou despesa. |
-| RF1 |	Exclusão de transação	| O sistema deve permitir que o usuário exclua uma transação já registrada, seja ela receita ou despesa. |
-| RF1 |	Vizualização do saldo	| O sistema deve permitir que o usuário verifique o seu saldo atual geral (receita - despesa). |
-| RF1 |	Listagem de transações	| O sistema deve listar todas as transações (receitas e despesas) com filtros por períodos (mês/ano) e categoria. |
-| RF1 |	Resumo mensal	| O sistema deve mostrar um resumo mensal com: total de receitas, total de despesas e saldo. |
-| RF1 |	Exibir histórico	| O sistema deve permirtir que o usuário veja o seu histórico em ordem cronológica. |
+| RF12 |	Cadastro de categoria de transação	| O sistema deve permitir que o usuário cadastre, edite e exclua categorias de despesas e receitas. |
+| RF13 |	Registro de receita	| O sistema deve permitir que o usuário cadastre uma receita, informando valor, data, categoria e descrição. |
+| RF14 |	Resgitro de despesa	| O sistema deve permitir que o usuário cadastre uma despesa, informando, valor, data, categoria e descrição. |
+| RF15 | Edição de transação	| O sistema deve permitir que o usuário edite uma transação já registrada, seja ela receita ou despesa. |
+| RF16 |	Exclusão de transação	| O sistema deve permitir que o usuário exclua uma transação já registrada, seja ela receita ou despesa. |
+| RF17 |	Vizualização do saldo	| O sistema deve permitir que o usuário verifique o seu saldo atual geral (receita - despesa). |
+| RF18 |	Listagem de transações	| O sistema deve listar todas as transações (receitas e despesas) com filtros por períodos (mês/ano) e categoria. |
+| RF19 |	Resumo mensal	| O sistema deve mostrar um resumo mensal com: total de receitas, total de despesas e saldo. |
+| RF20 |	Exibir histórico	| O sistema deve permirtir que o usuário veja o seu histórico em ordem cronológica. |
 ### 3.3.2 Requisitos Não Funcionais
 
 | Código | Requisito Não Funcional (Restrição) |
