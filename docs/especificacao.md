@@ -91,16 +91,18 @@ Essa estrutura de gerenciamento é essencial para enfrentar o "consumismo desenf
 * Além de administrar registros, o sistema deve controlar a elaboração de orçamentos e planejamentos mensais, possibilitando que o usuário defina objetivos de economia e limites de despesas por categoria. Ao combinar a gestão de informações de saldo com ferramentas de análise visual, o software automatiza a detecção de gastos recorrentes e pontos críticos no orçamento que, anteriormente, poderiam ser ignorados em registros manuais. Esse controle sistemático atende à demanda por educação financeira enfatizada pela PUC Minas, proporcionando ao público-alvo uma interface intuitiva que simplifica a tomada de decisões informadas e favorece a estabilidade financeira a longo prazo por meio de uma gestão digitalizada eficaz..
 
 ### 3.2.3 Limites do produto
-O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcelas do curso, pagamento a professore e agendamentos. O SCCA não contempla o atendimento a vários cursos de Sistemas de Informação de outras unidades da PUC Minas.
+O CDD será de uso individual, não pode ser usado por múltiplos usuários simultâneos ou de uso empresarial.   O CDD não terá integração com bancos, APIs financeiras ou outras organizações externas, sendo obrigatório informar o registro manualmente das informações.  O CDD não realizara pagamentos ou operações reais, sendo apenas informativo. O CDD não terá segurança avançada, como autenticação de múltiplos fatores ou criptografia avançada.  O CDD terá funcionalidades básicas de visualização de saldo, não incluindo análises financeiras de alto nível ou inteligência artificial.
 
 ### 3.2.4 Benefícios do produto
 
 | # | Benefício | Valor para o Cliente |
 |--------------------|------------------------------------|----------------------------------------|
-|1	| Facilidade no cadastro de dados |	Essencial |
-|2 | Facilidade na recuperação de informações | Essencial | 
-|3 | Segurança no cadastro de matrículas | Essencial | 
-|4	| Melhoria na comunicação com os alunos	| Recomendável | 
+|1	| Facilidade no cadastro dos dados financeiros |	Essencial |
+|2 | Facilidade na visualizaçâo do saldo | Essencial | 
+|3 | Organização por categorias de gastos | Essencial |
+|4	| Relatório básico	de gastos | Recomendável | 
+|5	| Interface simples de ser visualizada	| Recomendável |
+|6 | Sugestões para redução de gastos | Desejável |
 
 ## 3.3 Descrição geral do produto
 
