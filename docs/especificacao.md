@@ -11,11 +11,11 @@ Esses requisitos especificam as funcionalidades que possibilitarão ao usuário 
 
 | ID | Requisito | Descrição |
 |---|---|---|
-| RF01 | Registro de Transações | "O sistema deve permitir que o usuário registre receitas (ganhos) e despesas (gastos), informando o valor, a data e a descrição." |
-| RF02 | Categorização de Gastos | "Para uma análise mais detalhada, o sistema deve permitir a categorização das despesas em grupos como alimentação, transporte e lazer." |
-| RF03| Cálculo de Saldo | O sistema deve determinar automaticamente o saldo disponível, subtraindo o montante total de despesas do montante total de receitas. |
-| RF04 | Visualização de Orçamento | O sistema deve apresentar um painel (dashboard) com o resumo financeiro mensal do usuário de forma clara. |
-| RF05 | Gestão de Perfil | O sistema deve permitir que o usuário crie uma conta e gerencie seus dados pessoais com segurança. |
+| RF-01 | Registro de Transações | "O sistema deve permitir que o usuário registre receitas (ganhos) e despesas (gastos), informando o valor, a data e a descrição." |
+| RF-02 | Categorização de Gastos | "Para uma análise mais detalhada, o sistema deve permitir a categorização das despesas em grupos como alimentação, transporte e lazer." |
+| RF-03| Cálculo de Saldo | O sistema deve determinar automaticamente o saldo disponível, subtraindo o montante total de despesas do montante total de receitas. |
+| RF-04 | Visualização de Orçamento | O sistema deve apresentar um painel (dashboard) com o resumo financeiro mensal do usuário de forma clara. |
+| RF-05 | Gestão de Perfil | O sistema deve permitir que o usuário crie uma conta e gerencie seus dados pessoais com segurança. |
 
 ## 3.0.2 Complementarmente, devem ser estabelecidos os requisitos não funcionais, que definem os atributos de qualidade e restrições do sistema, garantindo a eficácia da solução no dia a dia do público-alvo:
 De acordo com as diretrizes de Girdhar et al. (2024), a documentação deve dar prioridade aos requisitos de usabilidade, garantindo uma interface intuitiva que mantenha o usuário engajado, bem como aos requisitos de segurança para proteger os dados sensíveis de movimentação bancária e pessoal. Ao especificar esses requisitos de acordo com as seções sugeridas, o projeto criará um referencial técnico robusto que orientará desde a estrutura da informação até os testes de aceitação finais. Isso garantirá que o sistema não seja apenas uma ferramenta automatizada, mas uma solução eficaz para a tomada de decisões financeiras informadas.
@@ -26,15 +26,16 @@ Estes requisitos garantem que a experiência do usuário seja satisfatória e se
 
 ID | Requisito | Descrição |
 |---|---|---|
-RNF01 | Usabilidade | "A interface precisa ser intuitiva e de fácil utilização, possibilitando que usuários com pouca familiaridade tecnológica consigam operar o sistema sem problemas." |
-RNF02 | Segurança | Para assegurar a privacidade das informações, é necessário criptografar os dados financeiros e as senhas dos usuários. |
-RNF03 | Disponibilidade | O sistema precisa estar disponível 24 horas por dia, 7 dias por semana, com uma taxa de acessibilidade de 99% (disponibilidade contínua). |
-RNF04 | Desempenho | O sistema precisa calcular e mostrar os saldos e gráficos em menos de 2 segundos. |
+RNF-01 | Usabilidade | "A interface precisa ser intuitiva e de fácil utilização, possibilitando que usuários com pouca familiaridade tecnológica consigam operar o sistema sem problemas." |
+RNF-02 | Segurança | Para assegurar a privacidade das informações, é necessário criptografar os dados financeiros e as senhas dos usuários. |
+RNF-03 | Disponibilidade | O sistema precisa estar disponível 24 horas por dia, 7 dias por semana, com uma taxa de acessibilidade de 99% (disponibilidade contínua). |
+RNF-04 | Desempenho | O sistema precisa calcular e mostrar os saldos e gráficos em menos de 2 segundos. |
 
 
 ## 3.1 Objetivos deste documento
 
 ### 3.1.1 Necessidades do Projeto SCCA
+
 O projeto SCCA deve atender à demanda da Coordenação do Curso de Sistemas de Informação da PUC Minas por uma centralização e automação no gerenciamento de atividades extracurriculares. Hoje em dia, a ausência de uma ferramenta unificada torna mais difícil o gerenciamento de novas ofertas, a verificação da carga horária e o monitoramento do histórico de cursos realizados. O sistema deve possibilitar que a coordenação registre novos cursos de aperfeiçoamento, administre as ementas e acompanhe o fluxo de inscrições, assegurando que as atividades planejadas estejam em conformidade com as diretrizes de educação financeira e técnica citadas no referencial teórico do curso.
 
 Além de gerenciar a administração, o sistema deve fornecer uma interface amigável para que os estudantes possam visualizar as oportunidades de aprimoramento de maneira clara e eficiente. A especificação deve incluir a criação de relatórios que ajudem a coordenação a tomar decisões estratégicas sobre quais áreas precisam de mais cursos, como gestão financeira ou tecnologias emergentes. Dessa forma, o SCCA atuará como um facilitador da organização acadêmica, eliminando procedimentos manuais e disponibilizando um repositório seguro de dados para aprimorar continuamente a formação oferecida pela PUC Minas.
@@ -49,7 +50,7 @@ O produto a ser desenvolvido é um sistema digital de gestão financeira pessoal
 
 * Categorização Inteligente: sistema de organização de despesas em categorias personalizáveis (por exemplo, alimentação, educação, lazer), com o objetivo de identificar onde o orçamento está sendo mais afetado.
 
-* Painel de Indicadores (Dashboard): Representação gráfica do saldo atual, comparação entre receitas e despesas do mês em curso e previsão de gastos recorrentes.
+* Painel de Indicadores: Representação gráfica do saldo atual, comparação entre receitas e despesas do mês em curso e previsão de gastos recorrentes.
 
 * Histórico e Filtros: Repositório de dados que possibilita ao usuário verificar transações anteriores em períodos determinados (mensais/anual).
 
@@ -68,11 +69,11 @@ O produto a ser desenvolvido é um sistema digital de gestão financeira pessoal
 * Efetuar o pagamento de contas diretamente pelo sistema (que é de controle, não de transação bancária).
   
 ### 3.2.1 Nome do produto e seus componentes principais
-O produto foi desenvolvido como uma solução tecnológica unificada para reduzir a desorganização financeira e o endividamento, operando por meio de uma plataforma web e móvel que enfatiza a "transparência e aprimoramento" na administração do capital pessoal. O sistema vai além de ser apenas um repositório de dados; ele funciona como uma ferramenta que auxilia na tomada de decisões informadas, convertendo registros isolados em uma visão clara do orçamento do usuário..
 
+O produto foi desenvolvido como uma solução tecnológica unificada para reduzir a desorganização financeira e o endividamento, operando por meio de uma plataforma web e móvel que enfatiza a "transparência e aprimoramento" na administração do capital pessoal. O sistema vai além de ser apenas um repositório de dados; ele funciona como uma ferramenta que auxilia na tomada de decisões informadas, convertendo registros isolados em uma visão clara do orçamento do usuário.
 É composto pelos seguintes componentes fundamentais:
 
-* Módulo de Lançamentos e Fluxo de Caixa: encarregado de registrar entradas (receitas) e saídas (despesas). Este componente é responsável pelo gerenciamento do histórico de transações e possibilita a inserção de dados de forma manual ou automatizada, com o objetivo de atender à carência de ferramentas mencionada por Krieger (2025)..
+* Módulo de Lançamentos e Fluxo de Caixa: encarregado de registrar entradas (receitas) e saídas (despesas). Este componente é responsável pelo gerenciamento do histórico de transações e possibilita a inserção de dados de forma manual ou automatizada, com o objetivo de atender à carência de ferramentas mencionada por Krieger (2025).
 
 * Motor de Categorização e Análise: elemento lógico responsável por classificar os gastos de acordo com sua natureza (essenciais, lazer, fixos, variáveis). Ele emprega os conceitos de interfaces intuitivas ressaltados por Girdhar et al. (2024) para incentivar o usuário por meio de uma visualização transparente de como o dinheiro está sendo alocado.
 
