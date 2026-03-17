@@ -1,24 +1,24 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
-## 3.0.1 A documentação dos requisitos deve ser detalhada para traduzir as necessidades dos usuários:
+## 3.0.1 Para refletir as demandas dos usuários, a documentação dos requisitos precisa ser minuciosa:
 
-Como estudantes, autônomos e gestores familiares, em funcionalidades técnicas que combatam a desorganização financeira e o endividamento. 
-Para isso, é essencial identificar os requisitos funcionais, que descreverão as ações que o sistema deve executar, como o registro de receitas e despesas mensais, a categorização automática de gastos e a geração de visões claras sobre o saldo disponível. Esta seção servirá como o alicerce para que o desenvolvimento atinja o objetivo de oferecer uma ferramenta simples e eficiente de acompanhamento orçamentário, conforme as lacunas identificadas por autores como Krieger (2025).
+Como estudantes, autônomos e responsáveis familiares, em ferramentas técnicas que ajudem a combater a desorganização financeira e a dívida. 
+Para isso, é fundamental determinar os requisitos funcionais, que especificarão as tarefas que o sistema deve realizar, como registrar receitas e despesas mensais, classificar automaticamente os gastos e fornecer visões claras do saldo disponível. Esta seção funcionará como a base para que o desenvolvimento alcance a meta de proporcionar uma ferramenta prática e eficaz para o acompanhamento orçamentário, de acordo com as lacunas apontadas por autores como Krieger (2025).
 
 Requisitos Funcionais (RF):
 
-Estes requisitos descrevem as funcionalidades que permitirão ao usuário gerenciar suas finanças:
+Esses requisitos especificam as funcionalidades que possibilitarão ao usuário administrar suas finanças:
 
 | ID | Requisito | Descrição |
 |---|---|---|
-| RF01 | Registro de Transações | "O sistema deve permitir que o usuário insira receitas (ganhos) e despesas (gastos), informando valor, data e descrição." |
-| RF02 | Categorização de Gastos | "O sistema deve permitir a classificação das despesas em categorias (ex: alimentação, transporte, lazer) para análise detalhada." |
-| RF03| Cálculo de Saldo | O sistema deve calcular automaticamente o saldo disponível subtraindo o total de despesas do total de receitas. |
+| RF01 | Registro de Transações | "O sistema deve permitir que o usuário registre receitas (ganhos) e despesas (gastos), informando o valor, a data e a descrição." |
+| RF02 | Categorização de Gastos | "Para uma análise mais detalhada, o sistema deve permitir a categorização das despesas em grupos como alimentação, transporte e lazer." |
+| RF03| Cálculo de Saldo | O sistema deve determinar automaticamente o saldo disponível, subtraindo o montante total de despesas do montante total de receitas. |
 | RF04 | Visualização de Orçamento | O sistema deve apresentar um painel (dashboard) com o resumo financeiro mensal do usuário de forma clara. |
 | RF05 | Gestão de Perfil | O sistema deve permitir que o usuário crie uma conta e gerencie seus dados pessoais com segurança. |
 
 ## 3.0.2 Complementarmente, devem ser estabelecidos os requisitos não funcionais, que definem os atributos de qualidade e restrições do sistema, garantindo a eficácia da solução no dia a dia do público-alvo:
-Seguindo as diretrizes de Girdhar et al. (2024), a documentação deve priorizar requisitos de usabilidade, assegurando uma interface intuitiva que mantenha o usuário motivado, além de requisitos de segurança para a proteção dos dados sensíveis de movimentação bancária e pessoal. Ao detalhar esses requisitos conforme as seções propostas, o projeto estabelecerá um referencial técnico sólido que guiará desde a arquitetura da informação até os testes de aceitação finais, garantindo que o sistema não seja apenas mais uma ferramenta automatizada, mas uma solução real para a tomada de decisões financeiras conscientes.
+De acordo com as diretrizes de Girdhar et al. (2024), a documentação deve dar prioridade aos requisitos de usabilidade, garantindo uma interface intuitiva que mantenha o usuário engajado, bem como aos requisitos de segurança para proteger os dados sensíveis de movimentação bancária e pessoal. Ao especificar esses requisitos de acordo com as seções sugeridas, o projeto criará um referencial técnico robusto que orientará desde a estrutura da informação até os testes de aceitação finais. Isso garantirá que o sistema não seja apenas uma ferramenta automatizada, mas uma solução eficaz para a tomada de decisões financeiras informadas.
 
 Requisitos Não Funcionais (RNF):
 
@@ -26,67 +26,68 @@ Estes requisitos garantem que a experiência do usuário seja satisfatória e se
 
 ID | Requisito | Descrição |
 |---|---|---|
-RNF01 | Usabilidade | "A interface deve ser intuitiva e fácil de usar, permitindo que usuários com pouco conhecimento tecnológico operem o sistema sem dificuldades." |
-RNF02 | Segurança | Os dados financeiros e as senhas dos usuários devem ser criptografados para garantir a privacidade das informações. |
-RNF03 | Disponibilidade | O sistema deve ser acessível via web ou dispositivos móveis em 99% do tempo (disponibilidade 24/7). |
-RNF04 | Desempenho | O sistema deve processar e exibir os cálculos de saldo e gráficos em um tempo de resposta inferior a 2 segundos. |
+RNF01 | Usabilidade | "A interface precisa ser intuitiva e de fácil utilização, possibilitando que usuários com pouca familiaridade tecnológica consigam operar o sistema sem problemas." |
+RNF02 | Segurança | Para assegurar a privacidade das informações, é necessário criptografar os dados financeiros e as senhas dos usuários. |
+RNF03 | Disponibilidade | O sistema precisa estar disponível 24 horas por dia, 7 dias por semana, com uma taxa de acessibilidade de 99% (disponibilidade contínua). |
+RNF04 | Desempenho | O sistema precisa calcular e mostrar os saldos e gráficos em menos de 2 segundos. |
 
 
 ## 3.1 Objetivos deste documento
 
 ### 3.1.1 Necessidades do Projeto SCCA
-O projeto SCCA deve atender à necessidade da Coordenação do Curso de Sistemas de Informação da PUC Minas de centralizar e automatizar o gerenciamento de cursos extracurriculares. Atualmente, a falta de uma ferramenta integrada dificulta o controle de novas ofertas, a validação de carga horária e o acompanhamento do histórico de cursos realizados. O sistema deve permitir que a coordenação cadastre novos cursos de aperfeiçoamento, gerencie as ementas e monitore o fluxo de inscrições, garantindo que as atividades propostas estejam alinhadas às diretrizes de educação financeira e técnica mencionadas no referencial teórico do curso.
+O projeto SCCA deve atender à demanda da Coordenação do Curso de Sistemas de Informação da PUC Minas por uma centralização e automação no gerenciamento de atividades extracurriculares. Hoje em dia, a ausência de uma ferramenta unificada torna mais difícil o gerenciamento de novas ofertas, a verificação da carga horária e o monitoramento do histórico de cursos realizados. O sistema deve possibilitar que a coordenação registre novos cursos de aperfeiçoamento, administre as ementas e acompanhe o fluxo de inscrições, assegurando que as atividades planejadas estejam em conformidade com as diretrizes de educação financeira e técnica citadas no referencial teórico do curso.
 
-Além da gestão administrativa, o sistema precisa oferecer uma interface intuitiva para que os alunos possam visualizar as oportunidades de aperfeiçoamento de forma clara e ágil. A especificação deve prever a geração de relatórios que auxiliem a coordenação na tomada de decisões estratégicas sobre quais áreas demandam mais cursos (como gestão financeira ou tecnologias emergentes). Assim, o SCCA funcionará como um facilitador da organização acadêmica, eliminando processos manuais e fornecendo um repositório confiável de dados para a melhoria contínua da formação oferecida pela PUC Minas.
+Além de gerenciar a administração, o sistema deve fornecer uma interface amigável para que os estudantes possam visualizar as oportunidades de aprimoramento de maneira clara e eficiente. A especificação deve incluir a criação de relatórios que ajudem a coordenação a tomar decisões estratégicas sobre quais áreas precisam de mais cursos, como gestão financeira ou tecnologias emergentes. Dessa forma, o SCCA atuará como um facilitador da organização acadêmica, eliminando procedimentos manuais e disponibilizando um repositório seguro de dados para aprimorar continuamente a formação oferecida pela PUC Minas.
 
 ## 3.2 Escopo do produto
- O produto a ser desenvolvido consiste em um sistema informatizado de gestão financeira pessoal, projetado para auxiliar usuários no registro e monitoramento de sua saúde financeira. O foco central do produto é a simplificação do processo de entrada de dados e a geração de visões analíticas que facilitem a tomada de decisão consciente sobre o uso do capital.
+
+O produto a ser desenvolvido é um sistema digital de gestão financeira pessoal, projetado para auxiliar os usuários no registro e monitoramento de sua saúde financeira. O principal objetivo do produto é facilitar a entrada de dados e gerar visões analíticas que auxiliem na tomada de decisões embasadas sobre a utilização do capital..
  
 ### 3.2.1 Funcionalidades e Características Principais
 
-* Módulo de Lançamentos: Interface para registro rápido de receitas (entradas) e despesas (saídas), permitindo a inserção de valores, datas e descritivos.
+* Módulo de Lançamentos: Tela para o registro ágil de receitas (entradas) e despesas (saídas), possibilitando a inclusão de valores, datas e descrições.
 
-* Categorização Inteligente: Sistema de classificação de gastos em categorias personalizáveis (ex: alimentação, educação, lazer), visando identificar onde o orçamento está sendo mais comprometido.
+* Categorização Inteligente: sistema de organização de despesas em categorias personalizáveis (por exemplo, alimentação, educação, lazer), com o objetivo de identificar onde o orçamento está sendo mais afetado.
 
-* Painel de Indicadores (Dashboard): Visualização gráfica do saldo atual, comparação entre receitas e despesas do mês vigente e projeção de gastos recorrentes.
+* Painel de Indicadores (Dashboard): Representação gráfica do saldo atual, comparação entre receitas e despesas do mês em curso e previsão de gastos recorrentes.
 
-* Histórico e Filtros: Repositório de dados que permite ao usuário consultar movimentações passadas por períodos específicos (mensal/anual).
+* Histórico e Filtros: Repositório de dados que possibilita ao usuário verificar transações anteriores em períodos determinados (mensais/anual).
 
-* Interface Responsiva: Design focado na usabilidade (conforme Girdhar et al., 2024), garantindo que estudantes e trabalhadores acessem o sistema com facilidade tanto em computadores quanto em dispositivos móveis.
+* Interface Responsiva: Design voltado para a usabilidade (de acordo com Girdhar et al., 2024), assegurando que alunos e profissionais possam acessar o sistema de forma simples, tanto em computadores quanto em dispositivos móveis.
 
 ### 3.2.2 Limites e Exclusões
 
-* Para garantir a viabilidade do projeto e o foco no controle de gastos simples e eficiente, os seguintes itens não fazem parte deste escopo:
+* Para assegurar a viabilidade do projeto e manter um controle de despesas simples e eficaz, os seguintes itens estão excluídos deste escopo::
 
-* Integração automática via API com contas bancárias reais (os dados devem ser inseridos manualmente ou via importação de arquivo padrão).
+* Integração automática por meio de API com contas bancárias reais (as informações precisam ser inseridas manualmente ou importadas a partir de um arquivo padrão).
 
-* Módulo de investimentos em bolsa de valores ou criptoativos.
+* Módulo de aplicações em mercado financeiro tradicional ou digital.
 
-* Consultoria financeira automatizada baseada em inteligência artificial para aplicações de risco.
+* Assessoria financeira automatizada fundamentada em inteligência artificial para investimentos de risco.
 
-* Pagamento de contas diretamente pelo sistema (o sistema é de controle, não de transação bancária).
+* Efetuar o pagamento de contas diretamente pelo sistema (que é de controle, não de transação bancária).
   
 ### 3.2.1 Nome do produto e seus componentes principais
-O produto foi concebido como uma solução tecnológica integrada para mitigar a desorganização financeira e o endividamento, funcionando através de uma plataforma web e móvel que prioriza a "transparência e melhoria" na gestão do capital individual. O sistema não se limita a um simples repositório de dados, mas atua como uma ferramenta de apoio à tomada de decisão consciente, transformando registros isolados em uma visão clara do orçamento do usuário.
+O produto foi desenvolvido como uma solução tecnológica unificada para reduzir a desorganização financeira e o endividamento, operando por meio de uma plataforma web e móvel que enfatiza a "transparência e aprimoramento" na administração do capital pessoal. O sistema vai além de ser apenas um repositório de dados; ele funciona como uma ferramenta que auxilia na tomada de decisões informadas, convertendo registros isolados em uma visão clara do orçamento do usuário..
 
 É composto pelos seguintes componentes fundamentais:
 
-* Módulo de Lançamentos e Fluxo de Caixa: Responsável pela captura de entradas (receitas) e saídas (despesas). Este componente gerencia o histórico de transações e permite a inserção manual ou automatizada de dados, visando suprir o déficit de ferramentas citado por Krieger (2025).
+* Módulo de Lançamentos e Fluxo de Caixa: encarregado de registrar entradas (receitas) e saídas (despesas). Este componente é responsável pelo gerenciamento do histórico de transações e possibilita a inserção de dados de forma manual ou automatizada, com o objetivo de atender à carência de ferramentas mencionada por Krieger (2025)..
 
-* Motor de Categorização e Análise: Componente lógico que organiza os gastos por natureza (essenciais, lazer, fixos, variáveis). Ele utiliza os princípios de interfaces intuitivas destacados por Girdhar et al. (2024) para motivar o usuário através de uma visualização clara de para onde o dinheiro está sendo direcionado.
+* Motor de Categorização e Análise: elemento lógico responsável por classificar os gastos de acordo com sua natureza (essenciais, lazer, fixos, variáveis). Ele emprega os conceitos de interfaces intuitivas ressaltados por Girdhar et al. (2024) para incentivar o usuário por meio de uma visualização transparente de como o dinheiro está sendo alocado.
 
-* Dashboard de Indicadores Financeiros: Um painel visual que consolida o saldo disponível e gera alertas preventivos. Este componente é essencial para a "autoavaliação" mencionada por Silveira et al. (2008), permitindo que o usuário identifique rapidamente riscos de inadimplência antes que ocorra a inclusão em sistemas de proteção ao crédito.
+* Dashboard de Indicadores Financeiros: Um painel visual que reúne o saldo disponível e emite alertas preventivos. Esse elemento é fundamental para a "autoavaliação" citada por Silveira et al. (2008), possibilitando que o usuário detecte prontamente os riscos de inadimplência antes que a inclusão em sistemas de proteção ao crédito aconteça.
 
-* Módulo de Educação e Planejamento: Focado no planejamento de despesas futuras e metas de poupança, este componente integra os conhecimentos de educação financeira propostos pela PUC Minas para incentivar hábitos de gerenciamento consistentes, especialmente para o público jovem e universitário.
+* Módulo de Educação e Planejamento: Com foco no planejamento de gastos futuros e objetivos de poupança, esse módulo incorpora os conceitos de educação financeira oferecidos pela PUC Minas para promover práticas de gestão financeira consistentes, especialmente entre os jovens e universitários.
 
 ### 3.2.2 Missão do produto
 
 Gestão de Informações e Composição do Sistema Financeiro:
 
-* O sistema deve gerenciar centralizadamente as informações sobre a oferta de categorias de gastos e fontes de receita, funcionando como o núcleo para a organização do capital do usuário. A composição do sistema deve permitir o registro detalhado de movimentações financeiras, onde cada lançamento é associado a metadados específicos, como data, valor, descrição e tipo de despesa (fixa ou variável). 
-Essa estrutura de gerenciamento é fundamental para combater o "consumismo sem freio" citado na justificativa do projeto, pois permite que o sistema processe dados brutos e os transforme em informações úteis para a autoavaliação financeira, garantindo que usuários, desde estudantes universitários a trabalhadores autônomos, tenham um repositório confiável para monitorar sua margem de economia.
+* O sistema deve administrar de forma centralizada os dados referentes à oferta de categorias de despesas e fontes de receita, atuando como o núcleo para a organização do capital do usuário. A estrutura do sistema deve possibilitar o registro minucioso das transações financeiras, em que cada entrada está vinculada a metadados específicos, como data, valor, descrição e categoria de despesa (fixa ou variável). 
+Essa estrutura de gerenciamento é essencial para enfrentar o "consumismo desenfreado" mencionado na justificativa do projeto, pois possibilita que o sistema processe dados brutos e os converta em informações valiosas para a autoavaliação financeira. Isso assegura que usuários, desde estudantes universitários até trabalhadores autônomos, disponham de um repositório confiável para acompanhar sua margem de economia..
 
-* Além da gestão de registros, o sistema deve gerenciar a composição de orçamentos e planejamentos mensais, permitindo que o usuário estabeleça metas de economia e tetos de gastos por categoria. Ao integrar o gerenciamento de informações de saldo com ferramentas de análise visual, o software automatiza a identificação de despesas recorrentes e gargalos no orçamento que antes passariam despercebidos em anotações manuais. Esse controle sistemático atende à necessidade de educação financeira destacada pela PUC Minas, oferecendo ao público-alvo uma interface intuitiva que facilita a tomada de decisões conscientes e promove o conforto financeiro a longo prazo através de uma gestão informatizada eficiente.
+* Além de administrar registros, o sistema deve controlar a elaboração de orçamentos e planejamentos mensais, possibilitando que o usuário defina objetivos de economia e limites de despesas por categoria. Ao combinar a gestão de informações de saldo com ferramentas de análise visual, o software automatiza a detecção de gastos recorrentes e pontos críticos no orçamento que, anteriormente, poderiam ser ignorados em registros manuais. Esse controle sistemático atende à demanda por educação financeira enfatizada pela PUC Minas, proporcionando ao público-alvo uma interface intuitiva que simplifica a tomada de decisões informadas e favorece a estabilidade financeira a longo prazo por meio de uma gestão digitalizada eficaz..
 
 ### 3.2.3 Limites do produto
 O SCCA não fornece nenhuma forma de avaliação de alunos, pagamento de parcelas do curso, pagamento a professore e agendamentos. O SCCA não contempla o atendimento a vários cursos de Sistemas de Informação de outras unidades da PUC Minas.
