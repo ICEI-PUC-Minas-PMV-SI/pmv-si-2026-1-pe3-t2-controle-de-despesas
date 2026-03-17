@@ -67,9 +67,20 @@ Além da gestão administrativa, o sistema precisa oferecer uma interface intuit
 * Pagamento de contas diretamente pelo sistema (o sistema é de controle, não de transação bancária).
   
 ### 3.2.1 Nome do produto e seus componentes principais
-O produto será denominado SCCA – Sistema de Cadastro de Cursos de Aperfeiçoamento. Ele terá somente um componente (módulo) com os devidos elementos necessários à gestão de cursos.
+O produto foi concebido como uma solução tecnológica integrada para mitigar a desorganização financeira e o endividamento, funcionando através de uma plataforma web e móvel que prioriza a "transparência e melhoria" na gestão do capital individual. O sistema não se limita a um simples repositório de dados, mas atua como uma ferramenta de apoio à tomada de decisão consciente, transformando registros isolados em uma visão clara do orçamento do usuário.
+
+É composto pelos seguintes componentes fundamentais:
+
+* Módulo de Lançamentos e Fluxo de Caixa: Responsável pela captura de entradas (receitas) e saídas (despesas). Este componente gerencia o histórico de transações e permite a inserção manual ou automatizada de dados, visando suprir o déficit de ferramentas citado por Krieger (2025).
+
+* Motor de Categorização e Análise: Componente lógico que organiza os gastos por natureza (essenciais, lazer, fixos, variáveis). Ele utiliza os princípios de interfaces intuitivas destacados por Girdhar et al. (2024) para motivar o usuário através de uma visualização clara de para onde o dinheiro está sendo direcionado.
+
+* Dashboard de Indicadores Financeiros: Um painel visual que consolida o saldo disponível e gera alertas preventivos. Este componente é essencial para a "autoavaliação" mencionada por Silveira et al. (2008), permitindo que o usuário identifique rapidamente riscos de inadimplência antes que ocorra a inclusão em sistemas de proteção ao crédito.
+
+* Módulo de Educação e Planejamento: Focado no planejamento de despesas futuras e metas de poupança, este componente integra os conhecimentos de educação financeira propostos pela PUC Minas para incentivar hábitos de gerenciamento consistentes, especialmente para o público jovem e universitário.
 
 ### 3.2.2 Missão do produto
+
 Gestão de Informações e Composição do Sistema Financeiro:
 
 * O sistema deve gerenciar centralizadamente as informações sobre a oferta de categorias de gastos e fontes de receita, funcionando como o núcleo para a organização do capital do usuário. A composição do sistema deve permitir o registro detalhado de movimentações financeiras, onde cada lançamento é associado a metadados específicos, como data, valor, descrição e tipo de despesa (fixa ou variável). 
