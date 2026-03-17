@@ -144,7 +144,7 @@ O CDD será de uso individual, não pode ser usado por múltiplos usuários simu
 |	RNF8 | O software deve possuir na tela inicial, um campo com perguntas frequentes, um suporte com as prinicipais informações para o usuário.
 |	RNF9 | O código do sistema, deve estar comentado, facilitando a manutenção e atualização.
 |	RNF10 | O sistema deve ser compatível com os principais navegadores, Mozilla Firefox e Google Chrome.
-|	RNF10 | O sistema deve possuir calendário, onde o usuário poderá adicionar lembretes de contas futuras.
+|	RNF11 | O sistema deve possuir calendário, onde o usuário poderá adicionar lembretes de contas futuras.
 
 
 ### 3.3.3 Usuários 
