@@ -11,15 +11,8 @@ Dessa forma, observa-se que muitas pessoas ainda enfrentam dificuldades para aco
 
 ## 1.2. Objetivos do trabalho
 
-O nosso principal objetivo no desenvolvimento deste projeto são as pessoas que desejam melhorar o seu relacionamento com o dinheiro, e estão almejando um conforto financeiro no futuro.
-
-<img width="446" height="314" alt="image" src="https://github.com/user-attachments/assets/ac35f0b6-b06f-49e5-a39e-a61e5eafe8c7" /> 
-
-(IJACSA) International Journal of Advanced Computer Science and Applications, 
-Vol. 12, Nº 1, 2021.
-
-Com facilidade de uso e a interface intuitiva para até quem não possui conhecimentos avançados em finanças consiga acompanhar seus gastos, Girdhar et al. (2024) enfatiza como a categorização e interfaces agradáveis desempenham um papel fundamental para garantir que as pessoas permaneçam motivadas com seu acompanhamento financeiro. 
-Desenvolver um sistema que permita o usuário registrar, organizar e analisar receitas e gastos, auxiliando o usuário no gerenciamento de suas finanças e na tomada de decisões financeiras.
+O nosso objetivo principal é desenvolver um software de controle de despesas que permita ao usuário registrar, acompanhar e analisar as suas finanças pessoais, auxiliando nas tomadas de decisões.
+Já como objetivos específicos temos como prioridade permitir o cadastro de receita e despesas, permitir a categorização de gastos, gerar relatórios e gráficos financeiros, calcular o saldo disponível automaticamente, permitir implementação de usuários e garantir armazenamento seguro de dados.
 
 ## 1.3. Justificativa
 
