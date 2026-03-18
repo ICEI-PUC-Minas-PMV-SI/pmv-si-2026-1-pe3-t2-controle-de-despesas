@@ -16,7 +16,9 @@ Já como objetivos específicos temos como prioridade permitir o cadastro de rec
 
 ## 1.3. Justificativa
 
-Em uma população onde o consumismo sem freio está em primeiro plano, é preciso  equilíbrio  no  momento  de realizar gastos para não gerar complicações nas finanças pessoais, como dívidas com altos valores que dificilmente são quitadas e, consequentemente, tendo o nome do incluído no sistema de proteção ao crédito. Foi pensando nisso que o nosso grupo concluiu que um projeto focado em controle financeiro seria o ideal para  desenvolver uma ferramenta capaz de auxiliar os usuários na organização de suas finanças pessoais e na tomada de decisões mais concientes sobre seus gastos.
+O controle financeiro na sociedade atual brasileira é um grande desafio, onde grande parte da população enfrenta dificuldades relacionadas a gestão financeria. De acordo com Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC), em fevereiro de 2026, 80,2% das famílias brasileiras possuem alguma dívida, deixando bem claro a falta de planejamento financeiro.
+Nesse contexto, o desenvolvimento de um sistema de CDD (controle de despesas) se justifica como uma ferramenta de apoio à organização financeira pessoal, permitindo ao usuário registrar, visualizar e analisar as suas finanças de forma estruturada. Ademais, soluções tecnológicas tem se tornado um aliado nas mudanças comportamentais, ao fornecer um feedback e facilitar na tomada de decisões.
+Dessa forma, o projeto busca não apenas atender uma necessidade prática, mas também contribuir na saúde financeira dos usuários.
 
 ## 1.4. Público alvo
 
