@@ -1,61 +1,31 @@
 # 3. DOCUMENTO DE ESPECIFICAÇÃO DE REQUISITOS DE SOFTWARE
 
-## 3.0.1 A documentação dos requisitos deve ser detalhada para atender às necessidades dos usuários:
+A documentação dos requisitos deve ser detalhada para atender às necessidades dos usuários:
+Para atender ao seu público, que busca praticidade e clareza e traduzir as dificuldades financeiras dos usuários de forma simples e direta, como o registro facil e rápido de gastos, ter uma separação automática por categorias (como lazer, contas, alimentação entre outros) e a exibição de um saldo atualizado para que na ocorra o endividamento. 
+Além disso, o software precisa ser visualmente de simples interação e seguro, garantindo que mesmo quem não tem intimidade com planilhas ou com a tecnologia consiga acompanhar seu orçamento e tomar decisões melhores sobre o uso do seu dinheiro no dia a dia.
 
+## 3.1 Objetivos deste documento:
 
-
-## 3.0.2 Complementarmente, devem ser estabelecidos os requisitos não funcionais, que definem os atributos de qualidade e restrições do sistema, garantindo a eficácia da solução no dia a dia do público-alvo:
-
-
-Requisitos Não Funcionais (RNF):
-
-Estes requisitos garantem que a experiência do usuário seja satisfatória e segura, conforme citado em sua justificativa:
-
-
-
-## 3.1 Objetivos deste documento
-
-### 3.1.1 Necessidades do Projeto CDD
-
+O objetivo deste documento é detalhar o guia de elaboraçao do sistema, transformando as necessidades, as dificuldades e do que os usuários precisam em regras práticas para os desenvolvedores. 
+Ele busca garantir que o software seja fácil de usar, permitindo que diferentes tipos de pessoa consiga anotar seus gastos rapidamente, podendo visualizar o saldo automático e entender para onde seu dinheiro está indo através de gráficos simples. 
+Em resumo, este documento serve para assegurar que a ferramenta final seja facil e eficiente, ajudando o usuário a organizar sua vida financeira e evitar dívidas de forma descomplicada.
 
 ## 3.2 Escopo do produto
-
-O produto a ser desenvolvido é um sistema digital de gestão financeira pessoal, projetado para auxiliar os usuários no registro e monitoramento de sua saúde financeira. O principal objetivo do produto é facilitar a entrada de dados e gerar visões analíticas que auxiliem na tomada de decisões embasadas sobre a utilização do capital.
  
-### 3.2.1 Funcionalidades e Características Principais
+Este trabalho consiste no desenvolvimento de um sistema de gestão financeira pessoal focado em simplificar o controle de gastos e despesas para pessoas que enfrentam dificuldades com métodos tradicionais. 
+O software oferecerá funções essenciais, como o registro rápido e facil de transações, a categorização automática do que são as despesas e a exibição de um saldo atualizado em tempo real.
+O objetivo central é transformar dados complexos em informações visuais claras, como gráficos e relatórios simples, permitindo que as pessoas monitorem sua saúde financeira sem a necessidade de conhecimentos avançados em tecnologia ou contabilidade.
 
-* Módulo de Lançamentos: Tela para o registro ágil de receitas (entradas) e despesas (saídas), possibilitando a inclusão de valores, datas e descrições.
+Além das funcionalidades práticas, tem como prioridade a criação de uma interface intuitiva e segura, garantindo que a interação seja facil e que os dados particulares dos usuários estejam protegidos. 
+O projeto vem a ser uma ferramenta de apoio à organização e tomada de decisões, buscando reduzir o endividamento e promover a educação financeira através de um feedback constante sobre o orçamento. Assim, o trabalho entrega uma solução digital completa e acessível, voltada especificamente para quem busca praticidade e eficiência no gerenciamento do próprio dinheiro no dia a dia.
 
-* Categorização Inteligente: sistema de organização de despesas em categorias personalizáveis (por exemplo, alimentação, educação, lazer), com o objetivo de identificar onde o orçamento está sendo mais afetado.
+### 3.2.1 Missão do produto
 
-* Painel de Indicadores: Representação gráfica do saldo atual, comparação entre receitas e despesas do mês em curso e previsão de gastos recorrentes.
+Simplificar a vida financeira das pessoas, oferecendo uma ferramenta digital facil que transforme a tarefa de anotar gastos em um hábito rápido e natural. 
+Com objetivo de dar ao usuário o controle sobre o seu dinheiro, substituindo anotações confusas por gráficos claros e cálculos automáticos que mostram exatamente quanto ele já gastou e quento pode gastar. 
+Ao focar na facilidade de uso e na segurança, o sistema busca ser de grande ajuda contra às dívidas e tambem um incentivo para que as pessoas tomem decisões financeiras mais inteligentes e seguras, garantindo tranquilidade no presente e conforto no futuro.
 
-* Histórico e Filtros: Repositório de dados que possibilita ao usuário verificar transações anteriores em períodos determinados (mensais/anual).
-
-* Interface Responsiva: Design voltado para a usabilidade (de acordo com Girdhar et al., 2024), assegurando que alunos e profissionais possam acessar o sistema de forma simples, tanto em computadores quanto em dispositivos móveis.
-
-### 3.2.2 Limites e Exclusões
-
-* Para assegurar a viabilidade do projeto e manter um controle de despesas simples e eficaz, os seguintes itens estão excluídos deste escopo::
-
-* Integração automática por meio de API com contas bancárias reais (as informações precisam ser inseridas manualmente ou importadas a partir de um arquivo padrão).
-
-* Módulo de aplicações em mercado financeiro tradicional ou digital.
-
-* Assessoria financeira automatizada fundamentada em inteligência artificial para investimentos de risco.
-
-* Efetuar o pagamento de contas diretamente pelo sistema (que é de controle, não de transação bancária).
-  
-### 3.2.1 Nome do produto e seus componentes principais
-
-
-
-### 3.2.2 Missão do produto
-
-Gestão de Informações e Composição do Sistema Financeiro:
-
-
-### 3.2.3 Limites do produto
+### 3.2.2 Limites do produto
 O CDD será de uso individual, não pode ser usado por múltiplos usuários simultâneos ou de uso empresarial.   O CDD não terá integração com bancos, APIs financeiras ou outras organizações externas, sendo obrigatório informar o registro manualmente das informações.  O CDD não realizara pagamentos ou operações reais, sendo apenas informativo. O CDD não terá segurança avançada, como autenticação de múltiplos fatores ou criptografia avançada.  O CDD terá funcionalidades básicas de visualização de saldo, não incluindo análises financeiras de alto nível ou inteligência artificial.
 
 ### 3.2.4 Benefícios do produto
