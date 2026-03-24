@@ -49,22 +49,22 @@ O CDD (Controle de despesas) será de uso individual, não pode ser usado por m�
 | RF02 |	Requisitos mínimos da senha	| O sistema deve validar que a senha informada contenha no mínimo 8 caracteres incluindo pelo menos 1 número e 1 letra. |
 | RF03	| Validação de e-mail único |	O sistema deve verificar, durante o cadastro, se o e-mail informado já está cadastrado e impedir a criação contas duplicadas. |
 | RF04	| E-mail inexistente |	O sistema deve informar ao usuário que o email informado não possui cadastro e oferecer a opção de realizar o cadastro. |
-| RF05 |	Login no sistema	| O sistema deve permitir que o usuário faça login utilizando e-mail e senha válidos. |
-| RF06	| Recuperação de senha |	O sistema deve permitir que o usuário solicite recuperação de senha informando o seu e-mail cadastrado. |
+| RF05 |	Login no sistema	| O usuário deve conseguir fazer login utilizando e-mail e senha válidos. |
+| RF06	| Recuperação de senha |	O usuário  deve conseguir solicitar a recuperação de senha informando o seu e-mail cadastrado. |
 | RF07 |	Expiração de código de recuperação	| O sistema deve encaminhar um código de recuperação por email com validade de 15 a 30 minutos. |
 | RF08 |	Validação do código de recuperação	| O sistema deve validar o codigo e permitir a redefinição de senha apenas se o código for válido e não expirado. |
-| RF09 |	Logout manual	| O sistema deve permitir o usuário encerrar a sua sessão manualmente. |
+| RF09 |	Logout manual	| O usuário deve conseguir encerrar a sua sessão manualmente. |
 | RF10 |	Expiração automática de sessão	| O sistema deve encerrar a sessão do usuário após um período de inatividade. |
 | RF11 |	Controle de sessão única	| O sistema deve permitir apenas uma sessão ativa por usuário, logout em outros dispositivos automático ao detectar um novo login. |
-| RF12 |	Cadastro de categoria de transação	| O sistema deve permitir que o usuário cadastre, edite e exclua categorias de despesas e receitas. |
-| RF13 |	Registro de receita	| O sistema deve permitir que o usuário cadastre uma receita, informando valor, data, categoria e descrição. |
-| RF14 |	Resgitro de despesa	| O sistema deve permitir que o usuário cadastre uma despesa, informando, valor, data, categoria e descrição. |
-| RF15 | Edição de transação	| O sistema deve permitir que o usuário edite uma transação já registrada, seja ela receita ou despesa. |
-| RF16 |	Exclusão de transação	| O sistema deve permitir que o usuário exclua uma transação já registrada, seja ela receita ou despesa. |
-| RF17 |	Vizualização do saldo	| O sistema deve permitir que o usuário verifique o seu saldo atual geral (receita - despesa). |
-| RF18 |	Listagem de transações	| O sistema deve listar todas as transações (receitas e despesas) com filtros por períodos (mês/ano) e categoria. |
+| RF12 |	Cadastro de categoria de transação	| O usuário deve conseguir cadastrar, editar e excluir categorias de despesas e receitas. |
+| RF13 |	Registro de receita	| O usuário deve conseguir cadastrar uma receita, informando valor, data, categoria e descrição. |
+| RF14 |	Resgitro de despesa	| O usuário deve conseguir cadastrar uma despesa, informando, valor, data, categoria e descrição. |
+| RF15 | Edição de transação	| O usuário deve conseguir editar uma transação já registrada, seja ela receita ou despesa. |
+| RF16 |	Exclusão de transação	| O usuário deve conseguir excluir uma transação já registrada, seja ela receita ou despesa. |
+| RF17 |	Vizualização do saldo	| O usuário deve conseguir verificar o seu saldo atual geral (receita - despesa). |
+| RF18 |	Listagem de transações	| O usuário deve conseguir visualizar todas as transações (receitas e despesas) com filtros por períodos (mês/ano) e categoria. |
 | RF19 |	Resumo mensal	| O sistema deve mostrar um resumo mensal com: total de receitas, total de despesas e saldo. |
-| RF20 |	Exibir histórico	| O sistema deve permirtir que o usuário veja o seu histórico em ordem cronológica. |
+| RF20 |	Exibir histórico	| O usuário deve conseguir ver o seu histórico em ordem cronológica. |
 ### 3.3.2 Requisitos Não Funcionais
 
 | Código | Requisito Não Funcional (Restrição) |
