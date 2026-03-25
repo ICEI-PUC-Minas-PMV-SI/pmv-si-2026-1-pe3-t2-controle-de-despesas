@@ -69,16 +69,16 @@ O CDD (Controle de despesas) será de uso individual, não pode ser usado por m�
 
 | Código | Requisito Não Funcional (Restrição) |
 |--------------------|------------------------------------|
-| RNF1 | Após efetuar o login, o carregamento dos dados como: saldo, gráficos e resumos, devem ser apresentados em menos de 2 segundos para o usuário |
+| RNF1 | Após efetuar o login, o carregamento dos dados devem acontecer em menos de 2 segundos para o usuário |
 | RNF2 | As senhas e dados financeiros dos usuários devem ser armazenadas de forma criptografadas |
 | RNF3 |	O sistema deve solicitar o cadastro de uma nova senha, a cada 6 meses de uso na plataforma, e fazer a verificação da senha para evitar repetição. |
 | RNF4 |	A disponibilidade do sistema deve ser de no mínimo 99,0%, no dia, semana, mês e ano.
-|	RNF5 | O software deve ser responsivo e intuitivo, adaptável a computadores, tablets e celulares e de fácil utilização.
+|	RNF5 | O software deve ser responsivo a computadores (resolução mínima de 1366 X 768) e celulares (resolução mmínima de 360 X640).
 |	RNF6 | O software, deve possuir botão para alterar o modo de exibição de tela, claro ou escuro.
 |	RNF7 | O sistema deve armazenar os dados históricos de clientes, por no mínimo 5 anos.
 |	RNF8 | O software deve possuir na tela inicial, um campo com perguntas frequentes, um suporte com as prinicipais informações para o usuário.
 |	RNF9 | O código do sistema, deve estar comentado, facilitando a manutenção e atualização.
-|	RNF10 | O sistema deve ser compatível com os principais navegadores, Mozilla Firefox e Google Chrome.
+|	RNF10 | O sistema deve ser compatível com o navegador, Google Chrome, versões 145 e 146.
 |	RNF11 | O sistema deve possuir calendário, onde o usuário poderá adicionar lembretes de contas futuras.
 
 
