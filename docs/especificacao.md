@@ -45,26 +45,18 @@ O CDD (Controle de despesas) será de uso individual, não pode ser usado por m�
 
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| RF01 | Criar cadastro |	O sistema deve permitir que um novo usuário crie uma conta informando e-mail e senha. |
-| RF02 |	Requisitos mínimos da senha	| O sistema deve validar que a senha informada contenha no mínimo 8 caracteres incluindo pelo menos 1 número e 1 letra. |
-| RF03	| Validação de e-mail único |	O sistema deve verificar, durante o cadastro, se o e-mail informado já está cadastrado e impedir a criação contas duplicadas. |
-| RF04	| E-mail inexistente |	O sistema deve informar ao usuário que o email informado não possui cadastro e oferecer a opção de realizar o cadastro. |
-| RF05 |	Login no sistema	| O usuário deve conseguir fazer login utilizando e-mail e senha válidos. |
-| RF06	| Recuperação de senha |	O usuário  deve conseguir solicitar a recuperação de senha informando o seu e-mail cadastrado. |
-| RF07 |	Expiração de código de recuperação	| O sistema deve encaminhar um código de recuperação por email com validade de 15 a 30 minutos. |
-| RF08 |	Validação do código de recuperação	| O sistema deve validar o codigo e permitir a redefinição de senha apenas se o código for válido e não expirado. |
-| RF09 |	Logout manual	| O usuário deve conseguir encerrar a sua sessão manualmente. |
-| RF10 |	Expiração automática de sessão	| O sistema deve encerrar a sessão do usuário após um período de inatividade. |
-| RF11 |	Controle de sessão única	| O sistema deve permitir apenas uma sessão ativa por usuário, logout em outros dispositivos automático ao detectar um novo login. |
-| RF12 |	Cadastro de categoria de transação	| O usuário deve conseguir cadastrar, editar e excluir categorias de despesas e receitas. |
-| RF13 |	Registro de receita	| O usuário deve conseguir cadastrar uma receita, informando valor, data, categoria e descrição. |
-| RF14 |	Resgitro de despesa	| O usuário deve conseguir cadastrar uma despesa, informando, valor, data, categoria e descrição. |
-| RF15 | Edição de transação	| O usuário deve conseguir editar uma transação já registrada, seja ela receita ou despesa. |
-| RF16 |	Exclusão de transação	| O usuário deve conseguir excluir uma transação já registrada, seja ela receita ou despesa. |
-| RF17 |	Vizualização do saldo	| O usuário deve conseguir verificar o seu saldo atual geral (receita - despesa). |
-| RF18 |	Listagem de transações	| O usuário deve conseguir visualizar todas as transações (receitas e despesas) com filtros por períodos (mês/ano) e categoria. |
-| RF19 |	Resumo mensal	| O sistema deve mostrar um resumo mensal com: total de receitas, total de despesas e saldo. |
-| RF20 |	Exibir histórico	| O usuário deve conseguir ver o seu histórico em ordem cronológica. |
+| RF01 | Usuário realiza cadastro |	O usuário deve conseguir se cadastra na plataforma. |
+| RF02 |	Usuário realiza login | O usuário deve conseguir efetuar login/logout na plataforma. |
+| RF03	| Usuário gerencia conta | O usuário gerencia seu perfil dentro da plataforma. |
+| RF04	| Usuário recupera senha |	O usuário deve conseguir alterar a senha da sua conta. |
+| RF05 |	Usuário cadastra despesa	| O usuário deve conseguir cadastrar e excluir categorias de despesa. |
+| RF06	| Usuário cadastra receita	| O usuário deve conseguir cadastrar e excluir categorias de receita. |
+| RF07 |	Usuário edita despesa |	O usuário deve conseguir gerenciar suas despesas. |
+| RF08 |	Usuário edita receita |	O usuário deve conseguir gerenciar sua receita. |
+| RF09 |	Usuário registra despesa	| O usuário consegue cadastrar uma despesa. |
+| RF10 | Usuário registra receita	| O usuário consegue cadastrar uma receita. |
+| RF11 |	Usuário visualiza histórico	| O usuário consegue vizualizar o seu histórico de despesas e receitas. |
+
 ### 3.3.2 Requisitos Não Funcionais
 
 | Código | Requisito Não Funcional (Restrição) |
