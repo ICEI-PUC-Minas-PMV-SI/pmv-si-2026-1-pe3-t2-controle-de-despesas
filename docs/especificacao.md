@@ -149,7 +149,7 @@ c) O Sistema apresenta o somatório de gastos daquele período para auxiliar na 
   
 ### 3.4.3 Diagrama de Classes 
 
-A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
+A Figura 2 mostra o diagrama de classes do sistema. aqui resume visualmente os fluxos do sistema de finanças pessoais, estruturado conforme os atores do sistema que sao Visitante e Usuário Cadastrado.
 
 #### Figura 2: Diagrama de Classes do Sistema.
  
@@ -157,11 +157,10 @@ A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a i
 
 ### 3.4.4 Descrições das Classes 
 
-| # | Nome | Descrição |
+| # | Tipo | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| 1	|	Aluno |	Cadastro de informações relativas aos alunos. |
-| 2	| Curso |	Cadastro geral de cursos de aperfeiçoamento. |
-| 3 |	Matrícula |	Cadastro de Matrículas de alunos nos cursos. |
-| 4 |	Turma |	Cadastro de turmas.
-| 5	|	Professor |	Cadastro geral de professores que ministram as disciplinas. |
+| 1	|	Visitante |	Cadastro de informações de novos usuarios. |
+| 2	| Usuario |	Armazena os dados finaceiros pessoais, sendo o espaço para adicionar as movimentações finaceiras. |
+| 3 |	Movimentaçao |	Registro individual financeiro como valor, data, descrição e o tipo. |
+| 4	|	Grafico |	Classe responsável por mostrar visualmente os cálculos do saldo total e gerar os gráficos mensais. |
 | ... |	... |	... |
