@@ -84,7 +84,7 @@ O CDD (Controle de despesas) será de uso individual, não pode ser usado por m�
 ## 3.4 Modelagem do Sistema
 
 ### 3.4.1 Diagrama de Casos de Uso
-Como observado no diagrama de casos de uso da Figura 1, separamos as ações de quem ainda não entrou no sistema (Visitante) das ações de quem já utiliza a ferramenta no dia a dia (Usuário Cadastrado).
+Como observado no diagrama de casos de uso da Figura 1, separamos quem ainda não entrou no sistema (Visitante) de quem já utiliza a ferramenta no dia a dia (Usuário Cadastrado).
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
