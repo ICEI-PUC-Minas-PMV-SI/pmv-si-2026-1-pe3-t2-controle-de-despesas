@@ -107,11 +107,11 @@ Ator Primário: Visitante.
 * O Sistema apresenta as opções de "Criar Nova Conta" ou "Realizar Login".
 * O Visitante escolhe a operação desejada.
 
-##### Após a conclusão do cadastro ou do login com sucesso, o Visitante passa a ser um Usuário Cadastrado e o caso de uso termina.
+Após a conclusão do cadastro ou do login com sucesso, o Visitante passa a ser um Usuário Cadastrado e o caso de uso termina.
 
-Fluxo Alternativo (3): Criar Nova Conta
+##### Fluxo Alternativo: Criar Nova Conta
 a) O Visitante solicita a criação de um novo perfil.
-b) O Sistema apresenta um formulário solicitando Nome, E-mail e Senha.
+b) O Sistema apresenta um formulário solicitando: Nome, Telefone, E-mail e Senha.
 c) O Visitante fornece os dados.
 d) O Sistema verifica se o e-mail já existe. Se sim, reporta o erro; caso contrário, salva o novo perfil.
 
@@ -128,24 +128,24 @@ d) O Sistema verifica se o e-mail já existe. Se sim, reporta o erro; caso contr
 
 Se o Usuário desejar continuar gerenciando seus dados, o caso de uso retorna ao passo 2; caso contrário, o caso de uso termina.
 
-##### Fluxo Alternativo (3): Inclusão de Movimentação
+##### Fluxo Alternativo: Inclusão de Movimentação
 a) O Usuário solicita a inclusão de um novo lançamento.
 b) O Sistema apresenta um formulário solicitando: Tipo (Receita ou Despesa), Valor, Data, Categoria (Lazer, Alimentação, etc.) e Descrição.
 c) O Usuário fornece os dados solicitados.
 d) O Sistema verifica a validade dos dados (campos obrigatórios e valores positivos).
-e) Se os dados forem válidos, o Sistema salva a movimentação e atualiza o Saldo Total e o Dashboard automaticamente; caso contrário, reporta o erro e solicita correção.
+e) Se os dados forem válidos, o Sistema salva a movimentação e atualiza o Saldo Total e o grafico automaticamente; caso contrário, reporta o erro e solicita correção.
 
-##### Fluxo Alternativo (3): Remoção
+##### Fluxo Alternativo: Remoção
 a) O Usuário seleciona uma movimentação específica no histórico e solicita a exclusão.
 b) O Sistema solicita confirmação.
 c) O Usuário confirma e o Sistema remove o registro, recalculando o saldo disponível.
 
-##### Fluxo Alternativo (3): Consulta e Filtros
+##### Fluxo Alternativo: Consulta e Filtros
 a) O Usuário opta por pesquisar por período (mês/ano) ou por categoria.
 b) O Sistema apresenta a lista de lançamentos filtrada.
 c) O Sistema apresenta o somatório de gastos daquele período para auxiliar na tomada de decisão.
 
-* Pós-condições: Uma movimentação financeira foi inserida, removida ou alterada, e os indicadores de saldo e gráficos foram atualizados no painel do usuário.
+Pós-condições: Uma movimentação financeira foi inserida, removida ou alterada, e os indicadores de saldo e gráficos foram atualizados no grafico do usuário.
   
 ### 3.4.3 Diagrama de Classes 
 
@@ -159,7 +159,7 @@ A Figura 2 mostra o diagrama de classes do sistema. aqui resume visualmente os f
 
 | # | Tipo | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| 1	|	Visitante |	Cadastro de informações de novos usuarios. |
+| 1	|	Visitante |	Cadastro de informações para novos usuarios. |
 | 2	| Usuario |	Armazena os dados finaceiros pessoais, sendo o espaço para adicionar as movimentações finaceiras. |
 | 3 |	Movimentaçao |	Registro individual financeiro como valor, data, descrição e o tipo. |
 | 4	|	Grafico |	Classe responsável por mostrar visualmente os cálculos do saldo total e gerar os gráficos mensais. |
