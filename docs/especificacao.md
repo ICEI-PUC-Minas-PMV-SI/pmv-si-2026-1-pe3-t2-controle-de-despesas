@@ -84,72 +84,76 @@ O CDD (Controle de despesas) será de uso individual, não pode ser usado por m�
 ## 3.4 Modelagem do Sistema
 
 ### 3.4.1 Diagrama de Casos de Uso
-Como observado no diagrama de casos de uso da Figura 1, a secretária poderá gerenciar as matrículas e professores no sistema, enquanto o coordenador, além dessas funções, poderá gerenciar os cursos de aperfeiçoamento.
+Como observado no diagrama de casos de uso da Figura 1, separamos as ações de quem ainda não entrou no sistema (Visitante) das ações de quem já utiliza a ferramenta no dia a dia (Usuário Cadastrado).
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-![Diagrama de Casos de Uso do Sistema 1](https://github.com/user-attachments/assets/85abf023-d2a7-4ecb-b62b-f4b8ef86c18a)
-
-
+![Diagrama de Casos de Uso do Sistemas](https://github.com/user-attachments/assets/58aa084a-caef-4f24-83d2-666e381eaac2)
 
  
 ### 3.4.2 Descrições de Casos de Uso
 
 Cada caso de uso deve ter a sua descrição representada nesta seção. Exemplo:
 
-#### Gerenciar Professor (CSU01)
+#### Visitante (CSU01)
 
-Sumário: A Secretária realiza a gestão (inclusão, remoção, alteração e consulta) dos dados sobre professores.
+* Sumário: Criar Conta e Autenticar: O passo inicial para que o interessado possa utilizar a solução.
+Ator Primário: Visitante.
+* Pré-condições: O Visitante deve acessar a página inicial do sistema.
 
-Ator Primário: Secretária.
+##### Fluxo Principal:
 
-Ator Secundário: Coordenador.
+* O Visitante solicita o acesso ao sistema.
+* O Sistema apresenta as opções de "Criar Nova Conta" ou "Realizar Login".
+* O Visitante escolhe a operação desejada.
 
-Pré-condições: A Secretária deve ser validada pelo Sistema.
+##### Após a conclusão do cadastro ou do login com sucesso, o Visitante passa a ser um Usuário Cadastrado e o caso de uso termina.
 
-Fluxo Principal:
+Fluxo Alternativo (3): Criar Nova Conta
+a) O Visitante solicita a criação de um novo perfil.
+b) O Sistema apresenta um formulário solicitando Nome, E-mail e Senha.
+c) O Visitante fornece os dados.
+d) O Sistema verifica se o e-mail já existe. Se sim, reporta o erro; caso contrário, salva o novo perfil.
 
-1) 	A Secretária requisita manutenção de professores.
-2) 	O Sistema apresenta as operações que podem ser realizadas: inclusão de um novo professor, alteração de um professor, a exclusão de um professor e a consulta de dados de um professor.
-3) 	A Secretária seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta, ou opta por finalizar o caso de uso.
-4) 	Se a Secretária desejar continuar com a gestão de professores, o caso de uso retorna ao passo 2; caso contrário o caso de uso termina.
+#### Usuário Cadastrado (CSU02)
+* Sumário: Gerenciar Movimentações Financeiras: Registro e manutenção de receitas e despesas.
+* Ator Primário: Usuário Cadastrado.
+* Pré-condições: O Usuário deve estar autenticado no sistema.
 
-Fluxo Alternativo (3): Inclusão
+##### Fluxo Principal:
 
-a)	A Secretária requisita a inclusão de um professor. <br>
-b)	O Sistema apresenta uma janela solicitando o CPF do professor a ser cadastrado. <br>
-c)	A Secretária fornece o dado solicitado. <br>
-d)	O Sistema verifica se o professor já está cadastrado. Se sim, o Sistema reporta o fato e volta ao início; caso contrário, apresenta um formulário em branco para que os detalhes do professor (Código, Nome, Endereço, CEP, Estado, Cidade, Bairro, Telefone, Identidade, Sexo, Fax, CPF, Data do Cadastro e Observação) sejam incluídos. <br>
-e)	A Secretária fornece os detalhes do novo professor. <br>
-f)	O Sistema verifica a validade dos dados. Se os dados forem válidos, inclui o novo professor e a grade listando os professores cadastrados é atualizada; caso contrário, o Sistema reporta o fato, solicita novos dados e repete a verificação. <br>
+* O Usuário solicita a gestão de suas finanças.
+* O Sistema apresenta as operações disponíveis: inclusão de nova movimentação, alteração de lançamento, exclusão de registro ou consulta ao histórico.
+* O Usuário seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta.
 
-Fluxo Alternativo (3): Remoção
+Se o Usuário desejar continuar gerenciando seus dados, o caso de uso retorna ao passo 2; caso contrário, o caso de uso termina.
 
-a)	A Secretária seleciona um professor e requisita ao Sistema que o remova. <br>
-b)	Se o professor pode ser removido, o Sistema realiza a remoção; caso contrário, o Sistema reporta o fato. <br>
+##### Fluxo Alternativo (3): Inclusão de Movimentação
+a) O Usuário solicita a inclusão de um novo lançamento.
+b) O Sistema apresenta um formulário solicitando: Tipo (Receita ou Despesa), Valor, Data, Categoria (Lazer, Alimentação, etc.) e Descrição.
+c) O Usuário fornece os dados solicitados.
+d) O Sistema verifica a validade dos dados (campos obrigatórios e valores positivos).
+e) Se os dados forem válidos, o Sistema salva a movimentação e atualiza o Saldo Total e o Dashboard automaticamente; caso contrário, reporta o erro e solicita correção.
 
-Fluxo Alternativo (3): Alteração
+##### Fluxo Alternativo (3): Remoção
+a) O Usuário seleciona uma movimentação específica no histórico e solicita a exclusão.
+b) O Sistema solicita confirmação.
+c) O Usuário confirma e o Sistema remove o registro, recalculando o saldo disponível.
 
-a)	A Secretária altera um ou mais dos detalhes do professor e requisita sua atualização. <br>
-b)	O Sistema verifica a validade dos dados e, se eles forem válidos, altera os dados na lista de professores, caso contrário, o erro é reportado. <br>
- 
-Fluxo Alternativo (3): Consulta
+##### Fluxo Alternativo (3): Consulta e Filtros
+a) O Usuário opta por pesquisar por período (mês/ano) ou por categoria.
+b) O Sistema apresenta a lista de lançamentos filtrada.
+c) O Sistema apresenta o somatório de gastos daquele período para auxiliar na tomada de decisão.
 
-a)	A Secretária opta por pesquisar pelo nome ou código e solicita a consulta sobre a lista de professores. <br>
-b)	O Sistema apresenta uma lista professores. <br>
-c)	A Secretária seleciona o professor. <br>
-d)	O Sistema apresenta os detalhes do professor no formulário de professores. <br>
-
-Pós-condições: Um professor foi inserido ou removido, seus dados foram alterados ou apresentados na tela.
-
+* Pós-condições: Uma movimentação financeira foi inserida, removida ou alterada, e os indicadores de saldo e gráficos foram atualizados no painel do usuário.
+  
 ### 3.4.3 Diagrama de Classes 
 
 A Figura 2 mostra o diagrama de classes do sistema. A Matrícula deve conter a identificação do funcionário responsável pelo registro, bem com os dados do aluno e turmas. Para uma disciplina podemos ter diversas turmas, mas apenas um professor responsável por ela.
 
 #### Figura 2: Diagrama de Classes do Sistema.
  
-![image](https://github.com/user-attachments/assets/abc7591a-b46f-4ea2-b8f0-c116b60eb24e)
-
+![Diagrama de Casos de Uso do Sistemas 2](https://github.com/user-attachments/assets/d26ed26a-c451-4137-aa74-31011bca2ec4)
 
 ### 3.4.4 Descrições das Classes 
 
