@@ -93,8 +93,6 @@ Como observado no diagrama de casos de uso da Figura 1, separamos quem ainda nã
  
 ### 3.4.2 Descrições de Casos de Uso
 
-Cada caso de uso deve ter a sua descrição representada nesta seção. Exemplo:
-
 #### Visitante (CSU01)
 
 * Sumário: Criar Conta e Autenticar: O passo inicial para que o interessado possa utilizar a solução.
