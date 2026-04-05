@@ -13,12 +13,16 @@ Dessa forma, observa-se que muitas pessoas ainda enfrentam dificuldades para aco
 
 O nosso objetivo principal é desenvolver um software de controle de despesas que permita ao usuário registrar, acompanhar e analisar as suas finanças pessoais, auxiliando nas tomadas de decisões.
 Já como objetivos específicos:
-
 permitir o cadastro de receita e despesas
+
 permitir a categorização de gastos
+
 gerar relatórios e gráficos financeiros
+
 calcular o saldo disponível automaticamente
+
 permitir implementação de usuários
+
 garantir armazenamento seguro de dados
 
 ## 1.3. Justificativa
