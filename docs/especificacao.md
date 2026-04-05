@@ -88,30 +88,29 @@ Como observado no diagrama de casos de uso da Figura 1, separamos quem ainda nã
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-![Diagrama de Casos de Uso do Sistemas](https://github.com/user-attachments/assets/58aa084a-caef-4f24-83d2-666e381eaac2)
+![Diagrama 1](https://github.com/user-attachments/assets/46ce3aae-7ba4-4608-bf36-b3f4f69dc0d3)
 
- 
 ### 3.4.2 Descrições de Casos de Uso
 
 #### Visitante (CSU01)
 
 * Sumário: Criar Conta e Autenticar: O passo inicial para que o interessado possa utilizar a solução.
-Ator Primário: Visitante.
+* Ator Primário: Visitante.
 * Pré-condições: O Visitante deve acessar a página inicial do sistema.
 
 ##### Fluxo Principal:
 
 * O Visitante solicita o acesso ao sistema.
-* O Sistema apresenta as opções de "Criar Nova Conta" ou "Realizar Login".
+* O Sistema apresenta as opções de "Criar Conta" ou "Realizar Login".
 * O Visitante escolhe a operação desejada.
 
 Após a conclusão do cadastro ou do login com sucesso, o Visitante passa a ser um Usuário Cadastrado e o caso de uso termina.
 
 ##### Fluxo Alternativo: Criar Nova Conta
-a) O Visitante solicita a criação de um novo perfil.
-b) O Sistema apresenta um formulário solicitando: Nome, Telefone, E-mail e Senha.
-c) O Visitante fornece os dados.
-d) O Sistema verifica se o e-mail já existe. Se sim, reporta o erro; caso contrário, salva o novo perfil.
+* O Visitante solicita a criação de um novo perfil.
+* O Sistema apresenta um formulário solicitando: Nome, Telefone, E-mail e Senha.
+* O Visitante fornece os dados.
+* O Sistema verifica se o e-mail já existe. Se sim, reporta o erro; caso contrário, salva o novo perfil.
 
 #### Usuário Cadastrado (CSU02)
 * Sumário: Gerenciar Movimentações Financeiras: Registro e manutenção de receitas e despesas.
@@ -127,21 +126,21 @@ d) O Sistema verifica se o e-mail já existe. Se sim, reporta o erro; caso contr
 Se o Usuário desejar continuar gerenciando seus dados, o caso de uso retorna ao passo 2; caso contrário, o caso de uso termina.
 
 ##### Fluxo Alternativo: Inclusão de Movimentação
-a) O Usuário solicita a inclusão de um novo lançamento.
-b) O Sistema apresenta um formulário solicitando: Tipo (Receita ou Despesa), Valor, Data, Categoria (Lazer, Alimentação, etc.) e Descrição.
-c) O Usuário fornece os dados solicitados.
-d) O Sistema verifica a validade dos dados (campos obrigatórios e valores positivos).
-e) Se os dados forem válidos, o Sistema salva a movimentação e atualiza o Saldo Total e o grafico automaticamente; caso contrário, reporta o erro e solicita correção.
+* O Usuário solicita a inclusão de um novo lançamento.
+* O Sistema apresenta um formulário solicitando: Tipo (Receita ou Despesa), Valor, Data, Categoria (Lazer, Alimentação, etc.) e Descrição.
+* O Usuário fornece os dados solicitados.
+* O Sistema verifica a validade dos dados (campos obrigatórios e valores positivos).
+* Se os dados forem válidos, o Sistema salva a movimentação e atualiza o Saldo Total e o grafico automaticamente; caso contrário, reporta o erro e solicita correção.
 
 ##### Fluxo Alternativo: Remoção
-a) O Usuário seleciona uma movimentação específica no histórico e solicita a exclusão.
-b) O Sistema solicita confirmação.
-c) O Usuário confirma e o Sistema remove o registro, recalculando o saldo disponível.
+* O Usuário seleciona uma movimentação específica no histórico e solicita a exclusão.
+* O Sistema solicita confirmação.
+* O Usuário confirma e o Sistema remove o registro, recalculando o saldo disponível.
 
 ##### Fluxo Alternativo: Consulta e Filtros
-a) O Usuário opta por pesquisar por período (mês/ano) ou por categoria.
-b) O Sistema apresenta a lista de lançamentos filtrada.
-c) O Sistema apresenta o somatório de gastos daquele período para auxiliar na tomada de decisão.
+* O Usuário opta por pesquisar por período (mês/ano) ou por categoria.
+* O Sistema apresenta a lista de lançamentos filtrada.
+* O Sistema apresenta o somatório de gastos daquele período para auxiliar na tomada de decisão.
 
 Pós-condições: Uma movimentação financeira foi inserida, removida ou alterada, e os indicadores de saldo e gráficos foram atualizados no grafico do usuário.
   
@@ -151,7 +150,7 @@ A Figura 2 mostra o diagrama de classes do sistema. aqui resume visualmente os f
 
 #### Figura 2: Diagrama de Classes do Sistema.
  
-![Diagrama de Casos de Uso do Sistemas 2](https://github.com/user-attachments/assets/d26ed26a-c451-4137-aa74-31011bca2ec4)
+![Diagrama 2](https://github.com/user-attachments/assets/a80fbb0e-6ebd-4e47-a9a3-b64dff5b556d)
 
 ### 3.4.4 Descrições das Classes 
 
