@@ -4,6 +4,8 @@ DINIZ, Eduardo Henrique; POZZEBON, Marlei; LUVIZAN, Simone. Algoritmos inclusivo
 
 DOCK. IA no setor financeiro: as possibilidades da GenAI para enfrentar os desafios do mercado. [S. l.]: Dock.tech, 2025. Disponível em: https://dock.tech/fluid/blog/tecnologia/ia-no-setor-financeiro-genai/. Acesso em: 7 mar. 2026.
 
+Pati, Raphael. CNC: 4 em cada 5 famílias brasileiras estão endividadas, mostra levantamento. postado em 11/03/2026. Disponível em: https://www.correiobraziliense.com.br/economia/2026/03/7373324-cnc-4-em-cada-5-familias-brasileiras-estao-endividadas-mostra-levantamento.html#google_vignette
+
 FERREIRA, Adriana Martins. Análise do Arcabouço Regulatório do Open Finance à luz da Defesa da Concorrência. São Paulo: FGV Direito SP, 2025.
 
 ITAÚ UNIBANCO; GRUPO CONSUMOTECA. Consciência e prosperidade: a nova relação do brasileiro com o dinheiro. São Paulo: Itaú, 2026.
