@@ -46,16 +46,18 @@ O CDD (Controle de despesas) será de uso individual, não pode ser usado por m�
 | Código | Requisito Funcional (Funcionalidade) | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
 | RF01 | Usuário realiza cadastro |	O usuário deve conseguir se cadastra na plataforma. |
-| RF02 |	Usuário realiza login | O usuário deve conseguir efetuar login/logout na plataforma. |
-| RF03	| Usuário gerencia conta | O usuário gerencia seu perfil dentro da plataforma. |
-| RF04	| Usuário recupera senha |	O usuário deve conseguir alterar a senha da sua conta. |
-| RF05 |	Usuário cadastra despesa	| O usuário deve conseguir cadastrar e excluir categorias de despesa. |
-| RF06	| Usuário cadastra receita	| O usuário deve conseguir cadastrar e excluir categorias de receita. |
-| RF07 |	Usuário edita despesa |	O usuário deve conseguir gerenciar suas despesas. |
-| RF08 |	Usuário edita receita |	O usuário deve conseguir gerenciar sua receita. |
-| RF09 |	Usuário registra despesa	| O usuário consegue cadastrar uma despesa. |
-| RF10 | Usuário registra receita	| O usuário consegue cadastrar uma receita. |
-| RF11 |	Usuário visualiza histórico	| O usuário consegue vizualizar o seu histórico de despesas e receitas. |
+| RF02 |	Usuário realiza login | O usuário deve conseguir efetuar login na plataforma. |
+| RF03 |	Usuário realiza logout | O usuário deve conseguir efetuar logout da plataforma. |
+| RF04	| Usuário gerencia conta | O usuário gerencia seu perfil dentro da plataforma. |
+| RF05	| Usuário alterar senha |	O usuário deve conseguir alterar a senha da sua conta. |
+| RF06 |	Usuário recupera senha | O usuário deve conseguir recuperar a sua senha da plataforma. |
+| RF07 |	Usuário cadastra despesa	| O usuario deve conseguir editar suas despesas, alterando-as ou excluindo-as |
+| RF08 |	Usuário exclui despesa	| O usuário deve conseguir excluir categorias de despesa. |
+| RF09	| Usuário cadastra receita	| O usuario deve conseguir editar suas receitas, alterando-as ou excluindo-as |
+| RF10	| Usuário exclui receita	| O usuário deve conseguir excluir categorias de receita. |
+| RF11 |	Usuário edita despesa |	O usuário deve conseguir gerenciar suas despesas. |
+| RF12 | Usuário registra receita	| O usuário consegue cadastrar uma receita. |
+| RF13 |	Usuário visualiza histórico	| O usuário consegue vizualizar o seu histórico de despesas e receitas. |
 
 ### 3.3.2 Requisitos Não Funcionais
 
