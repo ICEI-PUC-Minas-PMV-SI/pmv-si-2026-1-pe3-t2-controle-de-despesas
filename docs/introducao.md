@@ -28,8 +28,8 @@ garantir armazenamento seguro de dados.
 
 ## 1.3. Justificativa
 
-O controle financeiro na sociedade atual brasileira é um grande desafio, onde grande parte da população enfrenta dificuldades relacionadas a gestão financeria. De acordo com Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC), em fevereiro de 2026, 80,2% das famílias brasileiras possuem alguma dívida, deixando bem claro a falta de planejamento financeiro.
-Nesse contexto, o desenvolvimento de um sistema de CDD (controle de despesas) se justifica como uma ferramenta de apoio à organização financeira pessoal, permitindo ao usuário registrar, visualizar e analisar as suas finanças de forma estruturada. Ademais, soluções tecnológicas tem se tornado um aliado nas mudanças comportamentais, ao fornecer um feedback e facilitar na tomada de decisões.
+O controle financeiro representa um grande desafio na sociedade brasileira atual, uma vez que grande parte da população enfrenta dificuldades relacionadas à gestão financeria. De acordo com Confederação Nacional do Comércio de Bens, Serviços e Turismo (CNC), em fevereiro de 2026, 80,2% das famílias brasileiras possuíam alguma dívida, o que evidenciava a falta de planejamento financeiro.
+Nesse contexto, o desenvolvimento de um sistema de controle de despesas (CDD) justifica-se como uma ferramenta de apoio à organização financeira pessoal, permitindo ao usuário registrar, visualizar e analisar as suas finanças de forma estruturada. Ademais, soluções tecnológicas tem se tornado um aliado nas mudanças comportamentais, ao fornecer um feedback e facilitar na tomada de decisões.
 Dessa forma, o projeto busca não apenas atender uma necessidade prática, mas também contribuir na saúde financeira dos usuários.
 
 ## 1.4. Público alvo
