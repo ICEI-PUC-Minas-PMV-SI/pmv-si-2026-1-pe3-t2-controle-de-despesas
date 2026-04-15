@@ -32,6 +32,10 @@ Não tem paciência e tempo para planilhas complexas e acaba perdendo a noção 
 Renata utilizará a ferramenta principalmente via celula.
 Para ela, a categorização de forma automática e a visualização de saldo em tempo real são os recursos mais valiosos para ajudar em sua vida financeira.
 
+### Persona 2 De Jeferson
+<img width="1920" height="1080" alt="Black and White Simple User Persona Brainstorm" src="https://github.com/user-attachments/assets/5fe809b9-8516-4c70-a803-692d1dd96b93" />
+
+
 ## 4.2 Mapa de Empatia
 Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
 
