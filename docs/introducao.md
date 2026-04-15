@@ -11,20 +11,20 @@ Dessa forma, observa-se que muitas pessoas ainda enfrentam dificuldades para aco
 
 ## 1.2. Objetivos do trabalho
 
-O nosso objetivo principal é desenvolver um software de controle de despesas que permita ao usuário registrar, acompanhar e analisar as suas finanças pessoais, auxiliando nas tomadas de decisões.
-Já como objetivos específicos:
+O objetivo principal deste projeto é o desenvolvimento de um software de controle de despesas que permita ao usuário registrar, acompanhar e analisar as suas finanças pessoais, auxiliando nas tomadas de decisões financeiras do usuário.
+Já como objetivos específicos, destacam-se:
 
-permitir o cadastro de receita e despesas
+permitir o cadastro de receita e despesas;
 
-permitir a categorização de gastos
+permitir a categorização de gastos;
 
-gerar relatórios e gráficos financeiros
+gerar relatórios e gráficos financeiros;
 
-calcular o saldo disponível automaticamente
+calcular o saldo disponível automaticamente;
 
-permitir implementação de usuários
+permitir a implementação de múltiplos usuários;
 
-garantir armazenamento seguro de dados
+garantir armazenamento seguro de dados.
 
 ## 1.3. Justificativa
 
