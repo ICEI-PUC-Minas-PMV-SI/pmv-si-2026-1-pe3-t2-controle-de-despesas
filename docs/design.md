@@ -4,33 +4,8 @@
 
 Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar uma persona por integrante do projeto. Para mais informações sobre personas consulte: https://www.rdstation.com/blog/marketing/persona-o-que-e/. Sugere-se a utilização de um template do Canva: https://www.canva.com/pt_br/modelos/s/persona/
 
-### Persona 1 Renata Cavalcante
-
-* Quem é:
-Renata Cavalcante, 30 anos, Personal Trainer autônoma.
-
-* Bio:
-Renata possui uma rotina corrida, dividindo seu tempo entre atendimentos em academias e domicílios.
-Como profissional autônoma, sua renda é bem variável e bastante picada, recebendo diversos pagamentos de pequeno e médio valor.
-
-* Comportamento:
-Está sempre em movimento em encontro a seus alunos e utiliza o celular como sua principal ferramenta de trabalho. 
-Não tem paciência e tempo para planilhas complexas e acaba perdendo a noção dos gastos pequenos (café, lanche, combustível, entre outros) por falta de um método rápido de anotação.
-
-* Dores e Frustrações:
-1) Sensação de que o dinheiro some rapido.
-2) Frustração por não saber se o lucro do dia cobre as despesas de deslocamento.
-3) Dificuldade em prever o valor da fatura do cartão de crédito.
-4) Falta de tempo para organizar finanças em casa após um dia exaustivo.
-
-* Objetivos e Necessidades:
-1) Praticidade: Registrar ganhos e gastos rapidos entre uma aula e outra.
-2) Clareza: Visualizar rapidamente o saldo atualizado para decidir se pode ou não fazer uma compra extra.
-3) Categorização: Entender quanto do seu ganho está sendo consumido.
-
-* Relação com o Produto:
-Renata utilizará a ferramenta principalmente via celula.
-Para ela, a categorização de forma automática e a visualização de saldo em tempo real são os recursos mais valiosos para ajudar em sua vida financeira.
+### Persona 1 Rafael
+<img width="1920" height="1080" alt="Bianca" src="https://github.com/user-attachments/assets/e95ee91e-3f53-4862-b415-f73c0e8e9fe3" />
 
 ### Persona 2 De Jeferson
 <img width="1920" height="1080" alt="Black and White Simple User Persona Brainstorm" src="https://github.com/user-attachments/assets/5fe809b9-8516-4c70-a803-692d1dd96b93" />
