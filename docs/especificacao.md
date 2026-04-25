@@ -92,9 +92,9 @@ Como observado no diagrama de casos de uso da Figura 1, separamos quem ainda nã
 ### 3.4.2 Descrições de Casos de Uso
 
 #### Atores
-Visitante: Ator que ainda não possui acesso e interage apenas com as funções de criação de conta.
+* Visitante: Ator que ainda não possui acesso e interage apenas com as funções de criação de conta.
 
-Usuário Cadastrado: Ator principal que gerencia sua vida financeira.
+* Usuário Cadastrado: Ator principal que gerencia sua vida financeira.
 
 #### Principais Fluxos:
 
