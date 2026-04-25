@@ -87,61 +87,26 @@ Como observado no diagrama de casos de uso da Figura 1, separamos quem ainda nã
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-![Diagrama 1](https://github.com/user-attachments/assets/46ce3aae-7ba4-4608-bf36-b3f4f69dc0d3)
+<img width="574" height="583" alt="Diagrama 1" src="https://github.com/user-attachments/assets/107786d4-9109-4f70-be46-103c0b81277c" />
 
 ### 3.4.2 Descrições de Casos de Uso
 
-#### Visitante (CSU01)
+#### Atores
+Visitante: Ator que ainda não possui acesso e interage apenas com as funções de criação de conta.
 
-* Sumário: Criar Conta e Autenticar: O passo inicial para que o interessado possa utilizar a solução.
-* Ator Primário: Visitante.
-* Pré-condições: O Visitante deve acessar a página inicial do sistema.
+Usuário Cadastrado: Ator principal que gerencia sua vida financeira.
 
-##### Fluxo Principal:
+#### Principais Fluxos:
 
-* O Visitante solicita o acesso ao sistema.
-* O Sistema apresenta as opções de "Criar Conta" ou "Realizar Login".
-* O Visitante escolhe a operação desejada.
+* UC01 - Manter Conta (RF01, RF04, RF05, RF06): Inclui o cadastro inicial do visitante, a edição do perfil pelo usuário e os fluxos de segurança (alterar e recuperar senha).
 
-Após a conclusão do cadastro ou do login com sucesso, o Visitante passa a ser um Usuário Cadastrado e o caso de uso termina.
+* UC02 - Autenticação (RF02, RF03): Processo de Login e Logout para garantir que os dados financeiros estejam protegidos por sessão.
 
-##### Fluxo Alternativo: Criar Nova Conta
-* O Visitante solicita a criação de um novo perfil.
-* O Sistema apresenta um formulário solicitando: Nome, Telefone, E-mail e Senha.
-* O Visitante fornece os dados.
-* O Sistema verifica se o e-mail já existe. Se sim, reporta o erro; caso contrário, salva o novo perfil.
+* UC03 - Gerenciar Despesas (RF07, RF08, RF11): O usuário registra seus gastos. Aqui entra a categorização automática mencionada no escopo, onde cada despesa é vinculada a um tipo (Lazer, Alimentação, etc.).
 
-#### Usuário Cadastrado (CSU02)
-* Sumário: Gerenciar Movimentações Financeiras: Registro e manutenção de receitas e despesas.
-* Ator Primário: Usuário Cadastrado.
-* Pré-condições: O Usuário deve estar autenticado no sistema.
+* UC04 - Gerenciar Receitas (RF09, RF10, RF12): Registro de entradas financeiras (salários, rendas extras) para compor o saldo.
 
-##### Fluxo Principal:
-
-* O Usuário solicita a gestão de suas finanças.
-* O Sistema apresenta as operações disponíveis: inclusão de nova movimentação, alteração de lançamento, exclusão de registro ou consulta ao histórico.
-* O Usuário seleciona a operação desejada: Inclusão, Exclusão, Alteração ou Consulta.
-
-Se o Usuário desejar continuar gerenciando seus dados, o caso de uso retorna ao passo 2; caso contrário, o caso de uso termina.
-
-##### Fluxo Alternativo: Inclusão de Movimentação
-* O Usuário solicita a inclusão de um novo lançamento.
-* O Sistema apresenta um formulário solicitando: Tipo (Receita ou Despesa), Valor, Data, Categoria (Lazer, Alimentação, etc.) e Descrição.
-* O Usuário fornece os dados solicitados.
-* O Sistema verifica a validade dos dados (campos obrigatórios e valores positivos).
-* Se os dados forem válidos, o Sistema salva a movimentação e atualiza o Saldo Total e o grafico automaticamente; caso contrário, reporta o erro e solicita correção.
-
-##### Fluxo Alternativo: Remoção
-* O Usuário seleciona uma movimentação específica no histórico e solicita a exclusão.
-* O Sistema solicita confirmação.
-* O Usuário confirma e o Sistema remove o registro, recalculando o saldo disponível.
-
-##### Fluxo Alternativo: Consulta e Filtros
-* O Usuário opta por pesquisar por período (mês/ano) ou por categoria.
-* O Sistema apresenta a lista de lançamentos filtrada.
-* O Sistema apresenta o somatório de gastos daquele período para auxiliar na tomada de decisão.
-
-Pós-condições: Uma movimentação financeira foi inserida, removida ou alterada, e os indicadores de saldo e gráficos foram atualizados no grafico do usuário.
+* UC05 - Consultar Painel Financeiro (RF13): O sistema consolida as despesas e receitas para exibir o Saldo Atualizado em tempo real e o histórico, atendendo ao objetivo de evitar o endividamento.
   
 ### 3.4.3 Diagrama de Classes 
 
@@ -149,14 +114,14 @@ A Figura 2 mostra o diagrama de classes do sistema. aqui resume visualmente os f
 
 #### Figura 2: Diagrama de Classes do Sistema.
  
-![Diagrama 2](https://github.com/user-attachments/assets/a80fbb0e-6ebd-4e47-a9a3-b64dff5b556d)
+<img width="705" height="652" alt="Diagrama 2" src="https://github.com/user-attachments/assets/d45d09b8-ee5a-41c0-9bf0-81b1a9da9092" />
 
 ### 3.4.4 Descrições das Classes 
 
 | # | Tipo | Descrição |
 |--------------------|------------------------------------|----------------------------------------|
-| 1	|	Visitante |	Cadastro de informações para novos usuarios. |
-| 2	| Usuario |	Armazena os dados finaceiros pessoais, sendo o espaço para adicionar as movimentações finaceiras. |
-| 3 |	Movimentaçao |	Registro individual financeiro como valor, data, descrição e o tipo. |
-| 4	|	Grafico |	Classe responsável por mostrar visualmente os cálculos do saldo total e gerar os gráficos mensais. |
+| 1	|	Classe: |	Representa os objetos principais do software |
+| 2	| Atributos |	São as informações que o sistema precisa armazenar |
+| 3 |	Métodos:|	São as funcionalidades descritas nos requisitos funcionais (RF01 a RF13) |
+| 4	|	Relacionamento |	Define como uma classe "conversa" com a outra. A relação entre Despesa e Categoria atende ao requisito de "separação automática por categorias" |
 | ... |	... |	... |
