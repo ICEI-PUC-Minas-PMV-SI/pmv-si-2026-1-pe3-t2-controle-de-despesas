@@ -55,9 +55,7 @@ O CDD (Controle de despesas) será de uso individual, não pode ser usado por m�
 | RF08 |	Usuário edita despesa	| O usuario deve conseguir editar suas despesas, alterando-as ou editando-as |
 | RF09	| Usuário cadastra receita	| O usuario deve conseguir cadastrar suas receitas. |
 | RF10 |	Usuário edita receita	| O usuario deve conseguir editar suas receita, alterando-as ou editando-as |
-| RF11 |	Usuário edita despesa |	O usuário deve conseguir gerenciar suas despesas. |
-| RF12 | Usuário registra receita	| O usuário consegue cadastrar uma receita. |
-| RF13 |	Usuário visualiza histórico	| O usuário consegue vizualizar o seu histórico de despesas e receitas. |
+| RF11 |	Usuário visualiza histórico	| O usuário consegue vizualizar o seu histórico de despesas e receitas. |
 
 ### 3.3.2 Requisitos Não Funcionais
 
