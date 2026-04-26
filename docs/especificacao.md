@@ -120,6 +120,6 @@ A Figura 2 mostra o diagrama de classes do sistema. aqui resume visualmente os f
 |--------------------|------------------------------------|----------------------------------------|
 | 1	|	Classe: |	Representa os objetos principais do software |
 | 2	| Atributos |	São as informações que o sistema precisa armazenar |
-| 3 |	Métodos:|	São as funcionalidades descritas nos requisitos funcionais (RF01 a RF13) |
+| 3 |	Métodos:|	São as funcionalidades descritas nos requisitos funcionais (RF01 a RF11) |
 | 4	|	Relacionamento |	Define como uma classe "conversa" com a outra. A relação entre Despesa e Categoria atende ao requisito de "separação automática por categorias" |
 | ... |	... |	... |
