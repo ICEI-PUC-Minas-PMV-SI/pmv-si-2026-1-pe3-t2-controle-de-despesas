@@ -49,13 +49,12 @@ O CDD (Controle de despesas) será de uso individual, não pode ser usado por m�
 | RF02 |	Usuário realiza login | O usuário deve conseguir efetuar login na plataforma. |
 | RF03 |	Usuário realiza logout | O usuário deve conseguir efetuar logout da plataforma. |
 | RF04	| Usuário gerencia conta | O usuário gerencia seu perfil dentro da plataforma. |
-| RF05	| Usuário alterar senha |	O usuário deve conseguir alterar a senha da sua conta. |
+| RF05	| Usuário altera senha |	O usuário deve conseguir alterar a senha da sua conta. |
 | RF06 |	Usuário recupera senha | O usuário deve conseguir recuperar a sua senha da plataforma. |
-| RF07 |	Usuário cadastra despesa	| O usuario deve conseguir cadastrar suas despesas. |
-| RF08 |	Usuário edita despesa	| O usuario deve conseguir editar suas despesas, alterando-as ou editando-as |
-| RF09	| Usuário cadastra receita	| O usuario deve conseguir cadastrar suas receitas. |
-| RF10 |	Usuário edita receita	| O usuario deve conseguir editar suas receita, alterando-as ou editando-as |
-| RF11 |	Usuário visualiza histórico	| O usuário consegue vizualizar o seu histórico de despesas e receitas. |
+| RF07 |	Usuário gerencia despesa	| O usuario deve conseguir cadastrar suas despesas. |
+| RF08 |	Usuário gerencia receita	| O usuario deve conseguir editar suas receita, alterando-as ou editando-as |
+| RF09 |	Usuário visualiza relatório	| O usuario deve conseguir vizualizar, personalizar filtros e exportar dashboard. |
+| RF10|	Usuário visualiza histórico	| O usuário consegue vizualizar o seu histórico de despesas e receitas. |
 
 ### 3.3.2 Requisitos Não Funcionais
 
