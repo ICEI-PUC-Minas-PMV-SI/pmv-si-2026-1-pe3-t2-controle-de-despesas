@@ -100,11 +100,11 @@ Como observado no diagrama de casos de uso da Figura 1, separamos quem ainda nã
 
 * UC02 - Autenticação (RF02, RF03): Processo de Login e Logout para garantir que os dados financeiros estejam protegidos por sessão.
 
-* UC03 - Gerenciar Despesas (RF07, RF08, RF11): O usuário registra seus gastos. Aqui entra a categorização automática mencionada no escopo, onde cada despesa é vinculada a um tipo (Lazer, Alimentação, etc.).
+* UC03 - Gerenciar Despesas (RF07, RF08): O usuário registra seus gastos. Aqui entra a categorização automática mencionada no escopo, onde cada despesa é vinculada a um tipo (Lazer, Alimentação, etc.).
 
-* UC04 - Gerenciar Receitas (RF09, RF10, RF12): Registro de entradas financeiras (salários, rendas extras) para compor o saldo.
+* UC04 - Gerenciar Receitas (RF09, RF10): Registro de entradas financeiras (salários, rendas extras) para compor o saldo.
 
-* UC05 - Consultar Painel Financeiro (RF13): O sistema consolida as despesas e receitas para exibir o Saldo Atualizado em tempo real e o histórico, atendendo ao objetivo de evitar o endividamento.
+* UC05 - Consultar Painel Financeiro (RF11): O sistema consolida as despesas e receitas para exibir o Saldo Atualizado em tempo real e o histórico, atendendo ao objetivo de evitar o endividamento.
   
 ### 3.4.3 Diagrama de Classes 
 
