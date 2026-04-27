@@ -21,7 +21,11 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 ## 4.2 Mapa de Empatia
 Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
 
-Mapa de empatia 3 Alisson
+Mapa de empatia 2 de jeferson
+<img width="799" height="551" alt="WhatsApp Image 2026-04-27 at 14 18 26" src="https://github.com/user-attachments/assets/be53d68f-3bf7-4094-86f0-28d4b9887ed6" />
+
+
+Mapa de empatia 3 de Alisson
 <img width="814" height="562" alt="image" src="https://github.com/user-attachments/assets/22a709cf-93d7-432f-ac3d-cb3f716a0117" />
 
 
