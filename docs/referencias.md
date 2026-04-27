@@ -1,8 +1,10 @@
 # REFERÊNCIAS
 
-DINIZ, Eduardo Henrique; POZZEBON, Marlei; LUVIZAN, Simone. Algoritmos inclusivos em fintechs: investigação sobre justiça social e crédito. São Paulo: FGVcemif, 2024.
+BANCO CENTRAL DO BRASIL. Relatório de Economia Bancária e Evolução do Open Finance no Brasil. Brasília: BACEN, 2025. 
 
-DOCK. IA no setor financeiro: as possibilidades da GenAI para enfrentar os desafios do mercado. [S. l.]: Dock.tech, 2025. Disponível em: https://dock.tech/fluid/blog/tecnologia/ia-no-setor-financeiro-genai/. Acesso em: 7 mar. 2026.
+BRASIL. Portal do Investidor. Tecnologia e Finanças Digitais: Uma Análise Comportamental. Brasília: CVM/MEC, 2024.
+
+DINIZ, Eduardo Henrique; POZZEBON, Marlei; LUVIZAN, Simone. Algoritmos inclusivos em fintechs: investigação sobre justiça social e crédito. São Paulo: FGVcemif, 2024.
 
 Pati, Raphael. CNC: 4 em cada 5 famílias brasileiras estão endividadas, mostra levantamento. postado em 11/03/2026. Disponível em: https://www.correiobraziliense.com.br/economia/2026/03/7373324-cnc-4-em-cada-5-familias-brasileiras-estao-endividadas-mostra-levantamento.html#google_vignette
 
@@ -14,14 +16,12 @@ LEITE, João Marcelo Leal Gomes; KANAAN, Matheus. Inteligência artificial pode 
 
 MALTA, Daniele de Andrade. A regulação do open finance e sua interseção com a proteção de dados pessoais. Orientador: Emerson Ribeiro Fabiani. 2023. Dissertação (Mestrado Profissional em Direito) – Escola de Direito de São Paulo, Fundação Getulio Vargas, São Paulo, 2023.
 
-ORACLE BRASIL. Como a IA está transformando as finanças. [S. l.]: Oracle, 2024. Disponível em: https://www.oracle.com/br/erp/financials/ai-finance/. Acesso em: 7 mar. 2026.
+ORACLE BRASIL. O papel da IA Generativa como assessor digital no setor financeiro. São Paulo: Oracle Reports, 2024.
 
-POLI QUANT. Modelos quantitativos e inteligência artificial aplicados às finanças pessoais. São Paulo: Escola Politécnica da USP, 2024. Disponível em: https://poliquant.com.br. Acesso em: 7 mar. 2026.
+POLI QUANT. Modelos Quantitativos Aplicados a Finanças Pessoais. São Paulo: Escola Politécnica da USP, 2024.
 
-PONTIFÍCIA UNIVERSIDADE CATÓLICA DE MINAS GERAIS. Educação financeira e gerenciamento das finanças pessoais. Belo Horizonte: PUC Minas, s.d. Disponível em: https://bib.pucminas.br/pergamumweb/vinculos/00007a/00007afc.pdf
-. Acesso em: 7 mar. 2026.
+SANTANA, Deivid R. Desenvolvimento de Software de Gerenciamento Financeiro Pessoal: Entre a automação e a educação. Simpósio de Tecnologia da Fatec, Jales, 2024.
 
 SILVA, A. C. Estado da arte das dissertações e teses no Brasil sobre Educação Financeira e/ou Matemática Financeira. ResearchGate, 2023.
-
-ZETTA; PODER360. Estudo Open Finance: contexto, desenvolvimento e percepção. Brasília: Zetta, 2024. Disponível em: https://static.poder360.com.br/2024/07/pesquisa-open-finance-Datafolha-Zetta-17jul2024.pdf. Acesso em: 7 mar. 2026.
+https://static.poder360.com.br/2024/07/pesquisa-open-finance-Datafolha-Zetta-17jul2024.pdf. Acesso em: 7 mar. 2026.
 
