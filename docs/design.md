@@ -13,6 +13,9 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 ### Persona 3 de Alisson
 <img width="943" height="527" alt="image" src="https://github.com/user-attachments/assets/0e9b4df0-afba-4e2b-bf3e-05c316b70728" />
 
+### Persona 4 de Heitor
+<img width="1920" height="1080" alt="Black and White Simple User Persona Brainstorm" src="https://github.com/user-attachments/assets/92b38c0d-aea9-40f2-bc51-3097ab15f587" />
+
 
 
 ## 4.2 Mapa de Empatia
