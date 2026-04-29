@@ -20,7 +20,7 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 ### Persona 5 de Diego
 <img width="1920" height="1080" alt="Persona_Diego" src="https://github.com/user-attachments/assets/3a77a57f-691f-44f2-bb08-32ec30f5a6b2" />
 
-### Persona 5 de Igor
+### Persona 6 de Igor
 <img width="1920" height="1080" alt="Heloisa Cabral" src="https://github.com/user-attachments/assets/d38cd49e-d9f0-4a20-80d0-d4d4f588a3f8" />
 
 
@@ -35,6 +35,10 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 
 ### Mapa de empatia 5 de Diego
 <img width="799" height="551" alt="MapaDeEmpatia_Diego" src="https://github.com/user-attachments/assets/29c2a935-9059-48e4-93b6-526b63a6ca2c" />
+
+### Mapa de empatia 6 de Igor
+<img width="799" height="551" alt="mapa de empatia-Heloísa" src="https://github.com/user-attachments/assets/4565e686-a35f-4d39-bc3e-cfcd43a457ac" />
+
 
 
 
