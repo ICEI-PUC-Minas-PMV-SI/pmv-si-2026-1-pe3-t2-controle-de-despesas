@@ -8,7 +8,8 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 <img width="1920" height="1080" alt="Bianca" src="https://github.com/user-attachments/assets/e95ee91e-3f53-4862-b415-f73c0e8e9fe3" />
 
 ### Persona 2 De Jeferson
-<img width="1920" height="1080" alt="Black and White Simple User Persona Brainstorm" src="https://github.com/user-attachments/assets/5fe809b9-8516-4c70-a803-692d1dd96b93" />
+<img width="1599" height="899" alt="WhatsApp Image 2026-04-28 at 21 51 12" src="https://github.com/user-attachments/assets/010f307a-d053-4dfb-88df-80828aef33d9" />
+
 
 ### Persona 3 de Alisson
 <img width="943" height="527" alt="image" src="https://github.com/user-attachments/assets/0e9b4df0-afba-4e2b-bf3e-05c316b70728" />
