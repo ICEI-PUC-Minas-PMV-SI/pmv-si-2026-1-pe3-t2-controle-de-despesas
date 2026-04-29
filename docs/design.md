@@ -16,17 +16,22 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 ### Persona 4 de Heitor
 <img width="1920" height="1080" alt="Black and White Simple User Persona Brainstorm" src="https://github.com/user-attachments/assets/92b38c0d-aea9-40f2-bc51-3097ab15f587" />
 
+### Persona 5 de Diego
+<img width="1920" height="1080" alt="Persona_Diego" src="https://github.com/user-attachments/assets/3a77a57f-691f-44f2-bb08-32ec30f5a6b2" />
 
 
 ## 4.2 Mapa de Empatia
 Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A partir do mapa da empatia é possível detalhar a personalidade do cliente e compreendê-la melhor. O objetivo é obter um nível mais profundo de compreensão de uma persona. A seguir um exemplo de template que pode ser usado para o mapa de empatia. Para cada persona deverá ser apresentado o seu respectivo mapa de empatia. Sugere-se a utilização do template apresentado em https://www.rdstation.com/blog/marketing/mapa-da-empatia/.
 
-Mapa de empatia 2 de jeferson
+### Mapa de empatia 2 de jeferson
 <img width="799" height="551" alt="WhatsApp Image 2026-04-27 at 14 18 26" src="https://github.com/user-attachments/assets/be53d68f-3bf7-4094-86f0-28d4b9887ed6" />
 
-
-Mapa de empatia 3 de Alisson
+### Mapa de empatia 3 de Alisson
 <img width="814" height="562" alt="image" src="https://github.com/user-attachments/assets/22a709cf-93d7-432f-ac3d-cb3f716a0117" />
+
+### Mapa de empatia 5 de Diego
+<img width="799" height="551" alt="MapaDeEmpatia_Diego" src="https://github.com/user-attachments/assets/29c2a935-9059-48e4-93b6-526b63a6ca2c" />
+
 
 
 ## 4.3 Protótipos das Interfaces
