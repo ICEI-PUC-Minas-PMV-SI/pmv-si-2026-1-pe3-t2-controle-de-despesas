@@ -33,6 +33,9 @@ Mapa da Empatia é um material utilizado para conhecer melhor o seu cliente. A p
 ### Mapa de empatia 3 de Alisson
 <img width="814" height="562" alt="image" src="https://github.com/user-attachments/assets/22a709cf-93d7-432f-ac3d-cb3f716a0117" />
 
+### Mapa de empatia 4 de Heitor
+<img width="799" height="551" alt="mapa persona" src="https://github.com/user-attachments/assets/8b73cfe9-a807-4c89-9574-f4688ffcdd8b" />
+
 ### Mapa de empatia 5 de Diego
 <img width="799" height="551" alt="MapaDeEmpatia_Diego" src="https://github.com/user-attachments/assets/29c2a935-9059-48e4-93b6-526b63a6ca2c" />
 
