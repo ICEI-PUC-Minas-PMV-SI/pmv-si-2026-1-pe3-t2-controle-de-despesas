@@ -15,7 +15,7 @@ Nesta seção você deve detalhar as personas do seu projeto. Deve-se documentar
 <img width="943" height="527" alt="image" src="https://github.com/user-attachments/assets/0e9b4df0-afba-4e2b-bf3e-05c316b70728" />
 
 ### Persona 4 de Heitor
-<img width="1920" height="1080" alt="Black and White Simple User Persona Brainstorm" src="https://github.com/user-attachments/assets/92b38c0d-aea9-40f2-bc51-3097ab15f587" />
+<img width="1365" height="768" alt="Persona" src="https://github.com/user-attachments/assets/d8665825-7c0e-435e-9696-0dab9f52a8a1" />
 
 ### Persona 5 de Diego
 <img width="1920" height="1080" alt="Persona_Diego" src="https://github.com/user-attachments/assets/3a77a57f-691f-44f2-bb08-32ec30f5a6b2" />
