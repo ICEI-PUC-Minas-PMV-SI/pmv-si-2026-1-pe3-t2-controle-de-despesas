@@ -84,7 +84,7 @@ Como observado no diagrama de casos de uso da Figura 1, separamos quem ainda nã
 
 #### Figura 1: Diagrama de Casos de Uso do Sistema.
 
-<img width="953" height="738" alt="Casos de uso " src="https://github.com/user-attachments/assets/4d33ec42-f293-49c7-8728-772ca7cbcbb6" />
+<img width="953" height="738" alt="Casos de uso " src="https://github.com/user-attachments/assets/f891d28c-5796-48e8-825f-533119903e5c" />
 
 ### 3.4.2 Descrições de Casos de Uso
 
