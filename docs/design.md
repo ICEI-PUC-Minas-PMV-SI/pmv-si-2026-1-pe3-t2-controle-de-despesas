@@ -231,3 +231,14 @@ Cada integrante do grupo deverá aplicar o teste com um usuário distinto, prefe
 Durante a aplicação do teste, registre observações sobre comportamentos, dúvidas, erros e comentários feitos pelo usuário, bem como o tempo necessário para a execução de cada tarefa. Ao final, colete o feedback do participante, destacando pontos positivos e aspectos a serem melhorados.
 
 Os resultados obtidos por todos os integrantes devem ser consolidados, apresentando uma análise geral com os principais problemas encontrados, oportunidades de melhoria e as ações previstas para o projeto final. 
+
+### Relatório de Testes com Usuário:
+[Relatorio_de_Testes_com_Usuario-ControleDeDespesas-NomeSobrenome.docx](https://github.com/user-attachments/files/27526409/Relatorio_de_Testes_com_Usuario-ControleDeDespesas-NomeSobrenome.docx)
+
+### Relatórios de Testes com Usuários:
+- Igor Maskherano: <anexar_PDF_do_formulario_preenchido> 
+- Alisson Fernando: <anexar_PDF_do_formulario_preenchido> 
+- Diego Soares: <anexar_PDF_do_formulario_preenchido> 
+- Jeferson Silva: <anexar_PDF_do_formulario_preenchido> 
+- Rafael Alves: <anexar_PDF_do_formulario_preenchido> 
+- Heitor Henrique: <anexar_PDF_do_formulario_preenchido> 
