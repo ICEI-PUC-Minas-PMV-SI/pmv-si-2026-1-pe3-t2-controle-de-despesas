@@ -242,4 +242,5 @@ Os resultados obtidos por todos os integrantes devem ser consolidados, apresenta
 - Diego Soares: <anexar_PDF_do_formulario_preenchido> 
 - Jeferson Silva: <anexar_PDF_do_formulario_preenchido> 
 - Rafael Alves: <anexar_PDF_do_formulario_preenchido> 
-- Heitor Henrique: <anexar_PDF_do_formulario_preenchido> 
+- Heitor Henrique: [Relatorio_de_Testes_com_Usuario-ControleDeDespesas-HeitorSilva.pdf](https://github.com/user-attachments/files/27558912/Relatorio_de_Testes_com_Usuario-ControleDeDespesas-HeitorSilva.pdf)
+
