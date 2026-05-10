@@ -242,7 +242,8 @@ Os resultados obtidos por todos os integrantes devem ser consolidados, apresenta
 
 
 - Diego Soares: <anexar_PDF_do_formulario_preenchido> 
-- Jeferson Silva: <anexar_PDF_do_formulario_preenchido> 
+- Jeferson Silva: [Relatorio_de_testes_com_Usuario-ControleDeDespesas-JefersonSilva.pdf](https://github.com/user-attachments/files/27561546/Relatorio_de_testes_com_Usuario-ControleDeDespesas-JefersonSilva.pdf)
+ 
 - Rafael Alves: [Relatorio_de_Testes_com_Usuario (ragel.pdf](https://github.com/user-attachments/files/27559897/Relatorio_de_Testes_com_Usuario.ragel.pdf)
 - Heitor Henrique: [Relatorio_de_Testes_com_Usuario-ControleDeDespesas-HeitorSilva.pdf](https://github.com/user-attachments/files/27558912/Relatorio_de_Testes_com_Usuario-ControleDeDespesas-HeitorSilva.pdf)
 
