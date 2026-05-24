@@ -1,0 +1,221 @@
+/* Variáveis globais 
+Centraliza as colres e sombras*/
+
+:root {
+    --cor-fundo: #f5f7fc;
+    --cor-primaria: #3b82f6;
+    --cor-texto-principal: #1e293b;
+    --cor-texto-secundario: #64748b;
+    --cor-borda: #dbe3f0;
+    --cor-card: #ffffff;
+    --sombra: rgba(15, 23 , 42, 0.08);
+}
+/* reset das configurações gerais
+zera as margens do navegador e define a tipografica padrao*/
+
+ * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter' , sans-serif;
+}
+
+/*configuração do corpo da pagina */
+body{
+    background-color: var(--cor-fundo);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+/*cabeçalho*/
+
+.cabecalho-sistema {
+    display: flex;
+    max-width:1200px;
+    width: 100%;
+    padding: 24px 40px;
+    gap: 12px;
+    align-items: center;
+    margin: 0 auto;
+
+}
+
+.logo-icone {
+    background-color: var(--cor-primaria);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    box-shadow: 0 4px 12px rgba(30, 98, 208, 0.2);
+}
+
+.logo-texto h2 {
+color: var(--cor-texto-principal);
+font-weight: 700;
+font-size: 18px;
+line-height: 1;
+
+}
+
+.logo-texto span {
+    font-size: 12px;
+    color: var(--cor-texto-secundario);
+    
+}
+/*conteúdo principal*/
+.container {
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: auto;
+    padding: 0 40px 40px 40px;
+    gap: 80px;
+    align-items: center;
+}
+
+/*lado esquerdo do bloco de textos*/
+.secao-info{
+flex: 1.2;
+
+}
+
+.tag-gestao {
+    background-color: #e0f2fe;
+    color: #0369a1;
+    font-weight: 600;
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding: 6px 16px;
+    border-radius: 20px;
+    display: inline-block;
+
+}
+
+.titulo-principal {
+font-size: 44px;
+color: var(--cor-texto-principal);
+margin: 24px 0 16px 0;
+font-weight: 800;
+line-height: 1.15;
+
+letter-spacing: -1px;
+
+
+}
+
+.descricao {
+    color: var(--cor-texto-secundario);
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+/* lado direito (cartao login)*/
+.cartao-login {
+    background: var(--cor-card);
+    padding: 50px 40px;
+    border-radius: 32px;
+    box-shadow: 0 20px 40px var(--sombra);
+    width: 460px;
+    border: 1px solid rgba(226, 232, 240, 0.8);
+
+}
+
+.titulo-card {
+    color: var(--cor-texto-principal);
+    margin-bottom: 8px;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.subtitulo-card {
+    color: var(--cor-texto-secundario);
+    font-size: 14px;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.formulario-grupo {
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--cor-texto-principal);
+}
+
+/*ícone interno e input juntos */
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-container i.icone-fixo {
+    position: absolute;
+    left: 16px;
+    color: #94a3b8;
+    font-size: 16px;
+}
+input {
+    width: 100%;
+    padding: 14px 16px 14px 46px;
+    border: 1px solid var(--cor-borda);
+    border-radius: 12px;
+    font-size: 15px;
+    outline: none;
+    transition: all 0.2s ease;
+    color: var(--cor-texto-principal);
+}
+
+input:focus {
+    border-color: var(--cor-primaria);
+    background-color: #ffffff;
+    box-shadow: 0 0 0 4px rgba(30, 98, 208, 0.1);
+}
+.botao-entrar {
+    width: 100%;
+    padding: 16px;
+    background-color: #1e62d0;
+    color: #ffffff;
+    border: none;
+    border-radius: 12px;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 4px 12px rgba(30, 98, 208, 0.15);
+    transition: all 0.2s ease;
+    margin-top: 8px;
+    display: block;
+}
+/* efeito passar o mouse no botao*/
+.botao-entrar:hover {
+    background-color: #164fa8;
+    transform: translateY(-1px);
+}
+
+.alternar-senha {
+    position: absolute;
+    right: 16px;
+    cursor: pointer;
+    color: #94a3b8;
+    font-size: 16px;
+    transition: color 0.2s;
+}
+
+.alternar-senha:hover {
+color: var(--cor-texto-principal);
+
+}
+
+
+
