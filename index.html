@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Dados Pessoais</title>
+    <style>
+       
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f7f6;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .form-container {
+            background-color: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            width: 100%;
+            max-width: 400px;
+        }
+
+        h2 {
+            margin-top: 0;
+            color: #333;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+    
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #666;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="number"],
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box; /* Garante que o padding não quebre a largura */
+            font-size: 14px;
+        }
+
+        button {
+            width: 100%;
+            padding: 12px;
+            background-color: #28a745;
+            border: none;
+            border-radius: 4px;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background-color 0.2s;
+        }
+
+        button:hover {
+            background-color: #218838;
+        }
+
+                .mensagem-sucesso {
+            display: none; /* Escondida por padrão */
+            background-color: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+            padding: 15px;
+            border-radius: 4px;
+            text-align: center;
+            margin-top: 15px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Cadastro Pessoal</h2>
+        
+        <form id="meuFormulario">
+            <div class="form-group">
+                <label for="nome">Nome Completo:</label>
+                <input type="text" id="nome" required placeholder="Digite seu nome">
+            </div>
+
+            <div class="form-group">
+                <label for="genero">Gênero:</label>
+                <select id="genero" required>
+                    <option value="" disabled selected>Selecione...</option>
+                    <option value="masculino">Masculino</option>
+                    <option value="feminino">Feminino</option>
+                    <option value="nao_identificar">Prefiro não identificar</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="dataNascimento">Data de Nascimento:</label>
+                <input type="date" id="dataNascimento" required>
+            </div>
+
+            <div class="form-group">
+                <label for="renda">Renda Mensal (R$):</label>
+                <input type="number" id="renda" step="0.01" min="0" placeholder="0,00" required>
+            </div>
+
+            <button type="submit">Salvar Dados</button>
+        </form>
+
+        <div id="mensagem" class="mensagem-sucesso">
+            Dados cadastrados com sucesso!
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('meuFormulario').addEventListener('submit', function(event) {
+           
+            event.preventDefault();
+           
+            const nome = document.getElementById('nome').value;
+            const genero = document.getElementById('genero').value;
+            const dataNascimento = document.getElementById('dataNascimento').value;
+            const renda = document.getElementById('renda').value;
+            
+            const mensagemDiv = document.getElementById('mensagem');
+            mensagemDiv.style.display = 'block';
+            
+            this.reset();
+           
+            setTimeout(function() {
+                mensagemDiv.style.display = 'none';
+            }, 4000);
+        });
+    </script>
+
+</body>
+</html>
+
+```
