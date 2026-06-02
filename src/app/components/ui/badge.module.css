@@ -1,0 +1,20 @@
+.badge {
+  display: inline-block;
+  padding: 2px 10px;
+  border-radius: var(--radius-full);
+  font-size: var(--text-xs);
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+.cat_food { background: #FEF3E2; color: #C47D10; }
+.cat_leisure { background: #F3E9FA; color: #7D3C98; }
+.cat_bills { background: #FDEDEC; color: #C0392B; }
+.cat_health { background: #E9F9F0; color: #1E8449; }
+.cat_transport { background: #EAF4FB; color: #1A6FA8; }
+.cat_housing { background: #FEF1E6; color: #A04000; }
+.cat_education { background: #E8FAF8; color: #148A72; }
+.cat_other { background: #F2F3F4; color: #616A6B; }
+.cat_salary { background: #EBF3FC; color: #1A5FA8; }
+.cat_extra { background: #E8F7EF; color: #1E8449; }

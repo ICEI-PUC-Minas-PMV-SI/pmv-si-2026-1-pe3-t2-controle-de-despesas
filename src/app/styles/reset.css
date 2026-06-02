@@ -1,0 +1,71 @@
+/* Ajuste inicial dos estilos do navegador.
+ * Baseado em práticas comuns de reset CSS.
+ */
+
+/* Usa um cálculo de tamanho mais simples. */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/* Remove margens padrão. */
+* {
+  margin: 0;
+}
+body {
+  /* Define uma altura de linha mais confortável. */
+  line-height: 1.5;
+  /* Melhora a renderização dos textos. */
+  -webkit-font-smoothing: antialiased;
+}
+/* Ajusta imagens, vídeos e outros elementos de mídia. */
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+/* Faz os campos de formulário usarem a mesma fonte. */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+/* Evita que textos grandes estourem a tela. */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+/* Melhora a quebra de linhas em textos longos. */
+p {
+  text-wrap: pretty;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-wrap: balance;
+}
+
+/* Ajustes extras para a base visual do projeto. */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+  background: none;
+}

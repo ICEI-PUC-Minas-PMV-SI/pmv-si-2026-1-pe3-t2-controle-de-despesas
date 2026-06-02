@@ -1,0 +1,77 @@
+/* Tema visual do sistema CDD */
+:root {
+  /* Cores principais */
+  --color-primary: #2D7DD2;
+  --color-primary-dark: #1A5FA8;
+  --color-primary-light: #EBF3FC;
+  --color-secondary: #3BB273;
+  --color-secondary-dark: #2A8B58;
+  --color-secondary-light: #E8F7EF;
+  --color-accent: #F2A63A;
+  --color-danger: #E74C3C;
+  --color-danger-light: #FDF0EE;
+  --color-warning: #F39C12;
+
+  /* Cores neutras */
+  --color-bg: #F4F6FB;
+  --color-surface: #FFFFFF;
+  --color-surface-2: #F0F2F8;
+  --color-border: #E2E6F0;
+  --color-border-light: #EEF1F8;
+
+  /* Cores dos textos */
+  --color-text: #1C2237;
+  --color-text-muted: #6B7899;
+  --color-text-light: #A3AECB;
+  --color-text-inverse: #FFFFFF;
+
+  /* Cores das categorias */
+  --color-cat-food: #F2A63A;
+  --color-cat-leisure: #9B59B6;
+  --color-cat-bills: #E74C3C;
+  --color-cat-health: #2ECC71;
+  --color-cat-transport: #3498DB;
+  --color-cat-housing: #E67E22;
+  --color-cat-education: #1ABC9C;
+  --color-cat-other: #95A5A6;
+  --color-cat-salary: #2D7DD2;
+  --color-cat-extra: #3BB273;
+
+  /* Fontes */
+  --family-display: 'Sora', sans-serif;
+  --family-body: 'DM Sans', sans-serif;
+
+  /* Tamanhos dos textos */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-md: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 2rem;
+  --text-4xl: 2.75rem;
+
+  /* Espaçamentos */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 20px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-10: 40px;
+  --space-12: 48px;
+  --space-16: 64px;
+
+  /* Bordas arredondadas */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Sombras */
+  --shadow-sm: 0 1px 4px rgba(28, 34, 55, 0.07);
+  --shadow-md: 0 4px 16px rgba(28, 34, 55, 0.10);
+  --shadow-lg: 0 8px 32px rgba(28, 34, 55, 0.13);
+}

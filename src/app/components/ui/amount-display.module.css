@@ -1,0 +1,12 @@
+.amount {
+  font-family: var(--family-display);
+  font-weight: 700;
+}
+
+.income { color: var(--color-secondary); }
+.expense { color: var(--color-danger); }
+.neutral { color: var(--color-text); }
+
+.sm { font-size: var(--text-sm); }
+.md { font-size: var(--text-md); }
+.lg { font-size: var(--text-2xl); }
