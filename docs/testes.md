@@ -6,11 +6,25 @@ Nesta etapa devem ser realizados dois tipos de avaliação: por observação de 
 
 Ao final, os relatórios gerados por cada membro deverão ser disponibilizados aqui, juntamente com a planilha consolidada da avaliação heurística.
 
-Material de apoio para esta etapa:
+## **Avaliações Heurísticas por aluno:**
+- __Igor Maskherano__: _<Salvar_aqui_arquivo_em_formato_PDF>_
+- __Alisson Fernando__: _<Salvar_aqui_arquivo_em_formato_PDF>_
+- __Diego Soares__: _<Salvar_aqui_arquivo_em_formato_PDF>_
+- __Jeferson Silva__: _<Salvar_aqui_arquivo_em_formato_PDF>_
+- __Rafael Alves__: _<Salvar_aqui_arquivo_em_formato_PDF>_
+- __Heitor Henrique__: _<Salvar_aqui_arquivo_em_formato_PDF>_
 
+## **Avaliação Heurística Completa:**
+- __Em formato PDF__: _<Salvar_aqui_arquivo_em_formato_PDF>_
+- __Em formato DOCX__: _<Salvar_aqui_arquivo_em_formato_DOCX>_
 
-[Avaliação_Heurística.xlsx](https://github.com/user-attachments/files/16501461/Avaliacao_Heuristica.xlsx) 
+## Instruções gerais para a gestão das Avaliações Heurísticas 
+1) Cada aluno deverá, primeiramente, realizar o upload de sua **Avaliação Heurística** em formato PDF, com o respectivo nome, no tópico acima, **Avaliações Heurísticas por aluno**.
+2) Feito isto, no tópico **Avaliação Heurística Completa**, o aluno deverá adicionar os seus resultados ao arquivo em formato DOCX.
+3) E, por fim, no tópico **Avaliação Heurística Completa**, o aluno deverá exportar o arquivo DOCX para formato PDF e fazer upload do mesmo.
 
-[Relatório_de_Testes_com_Usuário.docx](https://github.com/user-attachments/files/16501456/Relatorio_de_Testes_com_Usuario.docx)
-
-[Relatório_de_Testes_com_Usuário_exemplo.docx](https://github.com/user-attachments/files/16501459/Relatorio_de_Testes_com_Usuario_exemplo.docx)
+## **Material de apoio para esta etapa:**
+- [Template relatório final AH  (3).docx](https://github.com/user-attachments/files/28650350/Template.relatorio.final.AH.3.docx)
+- [Avaliação_Heurística.xlsx](https://github.com/user-attachments/files/16501461/Avaliacao_Heuristica.xlsx) 
+- [Relatório_de_Testes_com_Usuário.docx](https://github.com/user-attachments/files/16501456/Relatorio_de_Testes_com_Usuario.docx)
+- [Relatório_de_Testes_com_Usuário_exemplo.docx](https://github.com/user-attachments/files/16501459/Relatorio_de_Testes_com_Usuario_exemplo.docx)
