@@ -16,7 +16,7 @@ Ao final, os relatórios gerados por cada membro deverão ser disponibilizados a
 
 ## **Avaliação Heurística Completa:**
 - __Em formato PDF__: _<Salvar_aqui_arquivo_em_formato_PDF>_
-- __Em formato DOCX__: _<Salvar_aqui_arquivo_em_formato_DOCX>_
+- __Em formato DOCX__: [Relatório Final AH - Controle De Despesas.docx](https://github.com/user-attachments/files/28650937/Relatorio.Final.AH.-.Controle.De.Despesas.docx)
 
 ## Instruções gerais para a gestão das Avaliações Heurísticas 
 1) Cada aluno deverá, primeiramente, realizar o upload de sua **Avaliação Heurística** em formato PDF, com o respectivo nome, no tópico acima, **Avaliações Heurísticas por aluno**.
