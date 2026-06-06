@@ -12,7 +12,8 @@ Ao final, os relatórios gerados por cada membro deverão ser disponibilizados a
 >_
 - __Diego Soares__: _<Salvar_aqui_arquivo_em_formato_PDF>_
 - __Jeferson Silva__: _<Salvar_aqui_arquivo_em_formato_PDF>_
-- __Rafael Alves__: _<Salvar_aqui_arquivo_em_formato_PDF>_
+- __Rafael Alves__: _<[Relatorio.Final.AH.-.Controle.De.Despesas.pdf](https://github.com/user-attachments/files/28673626/Relatorio.Final.AH.-.Controle.De.Despesas.pdf)
+>_
 - __Heitor Henrique__: _<Salvar_aqui_arquivo_em_formato_PDF>_
 
 ## **Avaliação Heurística Completa:**
