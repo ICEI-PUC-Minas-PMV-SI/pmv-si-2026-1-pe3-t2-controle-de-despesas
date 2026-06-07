@@ -1,7 +1,7 @@
 # CDD - Controle de Despesas
 
 ## Link para acesso do deploy do código fonte:
-[https://pmv-si-2026-1-pe3-t2-controle-de-de.vercel.app/]
+- https://pmv-si-2026-1-pe3-t2-controle-de-de.vercel.app/
 
 ## Funcionalidades
 
